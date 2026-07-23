@@ -1,0 +1,3 @@
+DEV_MODE = True
+
+USE_FIXTURES = True

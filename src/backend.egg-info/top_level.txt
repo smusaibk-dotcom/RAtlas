@@ -1,0 +1,6 @@
+application
+developer
+domain
+infrastructure
+presentation
+shared
