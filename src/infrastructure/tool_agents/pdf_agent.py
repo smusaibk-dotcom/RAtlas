@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import fitz
-
 from infrastructure.tool_agents.browser_agent import BrowserAgent
 
 

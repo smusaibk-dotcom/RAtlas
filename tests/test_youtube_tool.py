@@ -1,28 +1,60 @@
-from infrastructure.tools.tools import YouTubeTool
+import asyncio
+
+from application.dto.resource_reference import ResourceReference
+from infrastructure.parsers.parse_chunk_tool import ParseChunkTool
 
 
-tool = YouTubeTool()
+async def main():
+    parser = ParseChunkTool()
 
-result = tool.fetch_video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    resource = ResourceReference(
+        id="yt-test",
+        title="Attention Is All You Need",
+        url="https://www.youtube.com/watch?v=iDulhoQ2pro",
+        provider="youtube",
+    )
 
-print(result)
+    chunks = await parser.run(
+        resource,
+    )
 
-if result["success"]:
-    video = result["content"]
+    print(len(chunks))
 
-    metadata = tool.extract_metadata(video)
+    print("=" * 100)
 
-    transcript = tool.extract_transcript(video)
+    for i, chunk in enumerate(semantic_chunks):
+        print("=" * 100)
 
-    chapters = tool.extract_chapters(video)
+        print(f"CHUNK #{i}")
 
-    print("\n===== METADATA =====")
-    print(metadata)
+        print("Heading :", chunk.content["heading"])
 
-    print("\n===== TRANSCRIPT =====")
-    print(transcript["content"][:1000])
+        print("Start   :", chunk.content["start_time"])
 
-    print("\n===== CHAPTERS =====")
-    print(chapters)
+        print("End     :", chunk.content["end_time"])
 
-tool.cleanup()
+        print(
+            "Duration:",
+            round(
+                chunk.content["duration"],
+                2,
+            ),
+        )
+
+        print(
+            "Words   :",
+            len(
+                chunk.content["text"].split(),
+            ),
+        )
+
+        print()
+
+        print(
+            chunk.content["text"][:250],
+        )
+
+        print()
+
+
+asyncio.run(main())

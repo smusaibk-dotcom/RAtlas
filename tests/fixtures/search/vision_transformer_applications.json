@@ -1,0 +1,184 @@
+{
+    "search_query": {
+        "query": "vision transformer applications",
+        "reason": "To explore the various use cases of vision transformers.",
+        "priority": 2,
+        "max_results": 20
+    },
+    "requested_results": 20,
+    "retrieved_results": 19,
+    "response_time": 1.18,
+    "resources": [
+        {
+            "id": null,
+            "title": "A Survey of Applications of Vision Transformer and its ...",
+            "url": "https://ieeexplore.ieee.org/document/10590648",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8896154,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "What is a Vision Transformer (ViT)? What are ViT’s Real-World Applications?",
+            "url": "https://medium.com/@sj_innovation/what-is-a-vision-transformer-vit-what-are-vits-real-world-applications-8f0c87e14eb4",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8868231,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "A Deep Dive into Vision Transformers (ViT): Concepts, Fundamentals, ...",
+            "url": "https://medium.com/@xiaxiami/a-deep-dive-into-vision-transformers-vit-concepts-fundamentals-methods-and-applications-52efc5e8e452",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8399576,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer Model: Architecture, development and ...",
+            "url": "https://www.leewayhertz.com/vision-transformer-model",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8282873,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer: A New Era in Image Recognition",
+            "url": "https://viso.ai/deep-learning/vision-transformer-vit",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.82186085,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Introduction to Vision Transformers (ViT)",
+            "url": "https://encord.com/blog/vision-transformers",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.82082915,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer (ViT) Architecture",
+            "url": "https://www.geeksforgeeks.org/deep-learning/vision-transformer-vit-architecture",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.79254496,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "What Are Vision Transformers (ViT's)?",
+            "url": "https://averroes.ai/blog/vision-transformers-guide",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7915799,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision transformer",
+            "url": "https://en.wikipedia.org/wiki/Vision_transformer",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.78963995,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers (ViT) in Image Recognition - GeeksforGeeks",
+            "url": "https://www.geeksforgeeks.org/computer-vision/vision-transformers-vit-in-image-recognition",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.78709817,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer (VIT) for Image Recognition",
+            "url": "https://kritikalsolutions.com/vision-transformer-vit-for-image-recognition",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7845341,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "What is vision transformer? Meaning, Architecture, Examples, Use Cases, and How to Measure It (2026 Guide) – AiOps School",
+            "url": "https://aiopsschool.com/blog/vision-transformer",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.783542,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer (ViT) · Hugging Face",
+            "url": "https://huggingface.co/docs/transformers/en/model_doc/vit",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.78294516,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "What is a Vision Transformer (ViT)? | Ultralytics",
+            "url": "https://www.ultralytics.com/glossary/vision-transformer-vit",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7760977,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer in Computer Vision",
+            "url": "https://www.geeksforgeeks.org/computer-vision/vision-transformer-in-computer-vision",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7746691,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer: What It Is & How It Works [2024 Guide]",
+            "url": "https://www.v7darwin.com/blog/vision-transformer-guide",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7602419,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Applications using Vision Transformers",
+            "url": "https://medium.com/@harshakarimikonda22/vision-applications-using-vision-transformers-6bd32d60202d",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7447496,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers: Theory, Applications & Mathematical ...",
+            "url": "https://www.cliffsnotes.com/study-notes/21306282",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7208996,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers (ViT): Revolutionizing Computer Vision",
+            "url": "https://www.analyticsvidhya.com/blog/2023/06/vision-transformers-vit-revolutionizing-computer-vision",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.48572227,
+            "metadata": {}
+        }
+    ]
+}

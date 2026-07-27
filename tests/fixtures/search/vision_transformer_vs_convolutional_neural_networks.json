@@ -1,0 +1,175 @@
+{
+    "search_query": {
+        "query": "vision transformer vs convolutional neural networks",
+        "reason": "To compare the performance and efficiency of vision transformers and CNNs.",
+        "priority": 3,
+        "max_results": 30
+    },
+    "requested_results": 30,
+    "retrieved_results": 18,
+    "response_time": 1.38,
+    "resources": [
+        {
+            "id": null,
+            "title": "Comprehensive comparison between vision transformers and convolutional neural networks for face recognition tasks | Scientific Reports",
+            "url": "https://www.nature.com/articles/s41598-024-72254-w",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9477354,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers vs. Convolutional Neural Networks | by Fahim Rustamy, PhD | Medium",
+            "url": "https://medium.com/@faheemrustamy/vision-transformers-vs-convolutional-neural-networks-5fe8f9e18efc",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.93624437,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers vs. Convolutional Neural Networks (CNNs)",
+            "url": "https://www.geeksforgeeks.org/deep-learning/vision-transformers-vs-convolutional-neural-networks-cnns",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9245858,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Transformers vs. Convolutional Neural Networks: What’s the Difference? | Coursera",
+            "url": "https://www.coursera.org/articles/transformers-vs-convolutional-neural-networks",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.92343384,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer vs. CNN: A Comparison of Two Image Processing Giants | by Hassaan Idrees | Medium",
+            "url": "https://medium.com/@hassaanidrees7/vision-transformer-vs-cnn-a-comparison-of-two-image-processing-giants-d6c85296f34f",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9220975,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Comparison of Convolutional Neural Networks and Vision Transformers (ViTs)",
+            "url": "https://medium.com/@iliaspapastratis/comparison-of-convolutional-neural-networks-and-vision-transformers-vits-a8fc5486c5be",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9177831,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers vs. Convolutional Neural Networks: Who Wins?",
+            "url": "https://hitechnectar.com/blogs/do-vision-transformers-really-beat-cnns-in-all-cases",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9132521,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "1. Vision Transformers vs. CNNs: A Complete Technical Comparison",
+            "url": "https://medium.com/@aminfadaeinejad.edu/vision-transformers-vs-cnns-a-complete-technical-comparison-7563fa0d73d5",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9037116,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers vs CNNs at the Edge - Edge AI and Vision Alliance",
+            "url": "https://www.edge-ai-vision.com/2024/03/vision-transformers-vs-cnns-at-the-edge",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8965509,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Comparing Vision Transformers and Convolutional Neural Networks for Image Classification: A Literature Review",
+            "url": "https://www.mdpi.com/2076-3417/13/9/5521",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8963332,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "A comparative study between vision transformers and CNNs in digital pathology",
+            "url": "https://arxiv.org/pdf/2206.00389",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8896154,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformer vs. CNN for Object Detection",
+            "url": "https://blog.roboflow.com/vision-transformer-vs-cnn-for-detection",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8886914,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Comparison of Vision Transformers and Convolutional Neural ...",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11393140",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.88444936,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers or Convolutional Neural Networks? Both! | Towards Data Science",
+            "url": "https://towardsdatascience.com/vision-transformers-or-convolutional-neural-networks-both-de1a2c3c62e4",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8805613,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Convolutional Neural Networks vs Vision Transformers: 2 Roads to Winning the Copyright Challenge - Times Internet: Everything. Everyday.",
+            "url": "https://timesinternet.in/blog/vision-transformers-vs-convolutional-neural-networks",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8657814,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision Transformers Versus Convolutional Neural Networks: Comparing Robustness by Exploiting Varying Local Features | IEEE Journals & Magazine | IEEE Xplore",
+            "url": "https://ieeexplore.ieee.org/document/10962160",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.82220376,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "[PDF] Do Vision Transformers See Like Convolutional Neural Networks?",
+            "url": "https://proceedings.neurips.cc/paper/2021/file/652cf38361a209088302ba2b8b7f51e0-Paper.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7917732,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Are Transformers replacing CNNs in Object Detection? | Picsellia",
+            "url": "https://www.picsellia.com/post/are-transformers-replacing-cnns-in-object-detection",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.580091,
+            "metadata": {}
+        }
+    ]
+}

@@ -1,5 +1,7 @@
-from pydantic import BaseModel
 from uuid import UUID
+
+from pydantic import BaseModel
+
 from application.dto.query_understanding_result import QueryUnderstandingResult
 from application.dto.search_query_result import SearchQueryResult
 

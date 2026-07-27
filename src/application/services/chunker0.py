@@ -1,6 +1,6 @@
-import re
-from uuid import uuid4
 import hashlib
+import re
+
 from application.dto.canonical_document import CanonicalDocument
 from application.dto.chunk import Chunk
 

@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from collections import Counter
-from typing import Iterable
 
-from application.dto.search_result import SearchResult
 from application.dto.resource_reference import ResourceReference
+from application.dto.search_result import SearchResult
+from infrastructure.parsers.resource_router import ResourceRouter
 
 
 class SearchCollector:
@@ -33,6 +33,8 @@ class SearchCollector:
         duplicate_count = 0
 
         provider_counter = Counter()
+
+        router = ResourceRouter()
 
         seen_urls = set()
 
@@ -70,7 +72,7 @@ class SearchCollector:
                 else:
                     seen_urls.add(resource.url)
 
-                resource_type = (resource.resource_type or "").strip().lower()
+                resource_type = router.route(resource)
 
                 if resource_type == "pdf":
                     pdf_count += 1

@@ -1,11 +1,62 @@
+import asyncio
+from uuid import UUID
+
+from infrastructure.parsers.parse_error_classifier import ParseErrorClassifier
 from main import (
+    conversation_state_service,
+    parse_chunk_tool,
     query_understanding_service,
     search_query_generation_service,
     search_service,
-    conversation_state_service,
 )
 
-from uuid import UUID
+
+async def parse_all(resources):
+    semaphore = asyncio.Semaphore(4)
+
+    async def parse(resource):
+        async with semaphore:
+            print(f"START: {resource.title}")
+
+            try:
+                chunks = await parse_chunk_tool.run(
+                    resource,
+                )
+
+                print(f"DONE : {resource.title}")
+
+                return chunks
+
+            except Exception as e:
+                print(f"FAILED: {resource.title}")
+                print(e)
+
+                return e
+
+    tasks = [parse(resource) for resource in resources]
+
+    results = await asyncio.gather(
+        *tasks,
+        return_exceptions=False,
+    )
+
+    chunks = []
+    failed = []
+
+    for resource, result in zip(resources, results):
+        if isinstance(result, Exception):
+            failed.append(
+                {
+                    "resource": resource,
+                    "reason": ParseErrorClassifier.classify(result),
+                    "message": str(result),
+                }
+            )
+
+        else:
+            chunks.extend(result)
+
+    return chunks, failed
 
 
 def search(
@@ -38,6 +89,9 @@ def search(
     )
 
     understanding = query_understanding_service.analyze(query_for_understanding)
+
+    print("QUERY SENT TO LLM:")
+    print(query_for_understanding)
 
     state.query_understanding = understanding
 
@@ -74,10 +128,29 @@ def search(
 
     print("STEP 4", search_results)
 
+    resources = []
+
+    for result in search_results:
+        resources.extend(result.resources)
+
+    # Parse only the top "n" search results
+    max_n_resorcues = 12
+    resources = resources[:max_n_resorcues]
+
+    print(f"Parsing {len(resources)} resources...")
+
+    chunks, failed_resources = asyncio.run(parse_all(resources))
+
+    print("=" * 80)
+    print("TOTAL PARSED CHUNKS:", len(chunks))
+    print("=" * 80)
+
     return {
         "conversation_id": state.conversation_id,
         "status": understanding.status,
         "understanding": understanding,
         "search_queries": search_queries,
         "search_results": search_results,
+        "parsed_chunks": chunks,
+        "failed_resources": failed_resources,
     }

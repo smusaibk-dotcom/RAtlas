@@ -1,11 +1,12 @@
-from docling.document_converter import DocumentConverter
-from docling.chunking import HybridChunker
+import io
+import os
+
+import fitz
 import httpx
 import pdfplumber
-import io
-import fitz
+from docling.chunking import HybridChunker
+from docling.document_converter import DocumentConverter
 from transformers import AutoTokenizer
-import os
 
 
 class PDFAgent:

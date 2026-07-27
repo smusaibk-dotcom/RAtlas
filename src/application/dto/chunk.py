@@ -14,9 +14,11 @@ class Chunk(BaseModel):
 
     chunk_id: str
 
-    source_type: str
+    resource_type: str
 
-    source_id: str
+    resource_id: str
+
+    chunk_index: int
 
     content: Any = Field(
         description=(

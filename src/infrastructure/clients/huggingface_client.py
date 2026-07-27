@@ -1,6 +1,8 @@
 import os
+
 from dotenv import load_dotenv
 from huggingface_hub import InferenceClient
+
 from application.dto.llm_request import LLMRequest
 from infrastructure.exceptions.llm_exception import LLMException
 from infrastructure.parsers.pydantic_parser import PydanticParser

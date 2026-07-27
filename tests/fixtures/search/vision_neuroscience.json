@@ -1,0 +1,193 @@
+{
+    "search_query": {
+        "query": "vision neuroscience",
+        "reason": "Insights from neuroscience can provide a deeper understanding of the vision process.",
+        "priority": 3,
+        "max_results": 20
+    },
+    "requested_results": 20,
+    "retrieved_results": 20,
+    "response_time": 0.0,
+    "resources": [
+        {
+            "id": null,
+            "title": "Visual neuroscience",
+            "url": "https://en.wikipedia.org/wiki/Visual_neuroscience",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9584795,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Frontiers in Neuroscience | Visual Neuroscience",
+            "url": "https://www.frontiersin.org/journals/neuroscience/sections/visual-neuroscience",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7500592,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Tasks and their role in visual neuroscience",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0896627323002180",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.74563974,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision – Introduction to Psychology & Neuroscience",
+            "url": "https://digitaleditions.library.dal.ca/intropsychneuro/chapter/vision",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6912478,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision: Central Processing – Foundations of Neuroscience",
+            "url": "https://openbooks.lib.msu.edu/neuroscience/chapter/vision-central-processing",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.68723184,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "The Visual Brain at Work: Unlocking the Neuroscience ...",
+            "url": "https://www.texasvisiontherapy.com/blog/visual-brain-reading-neuroscience.html",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.66229486,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Visual Perception and the Brain - Online Duke",
+            "url": "https://online.duke.edu/course/visual-perception-brain",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5342973,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "NIH researchers identify brain circuits responsible for ...",
+            "url": "https://www.nih.gov/news-events/news-releases/nih-researchers-identify-brain-circuits-responsible-visual-acuity",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.17681402,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Visual Neuroscience - an overview",
+            "url": "https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/visual-neuroscience",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9449999,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Visual Neuroscience News - Research Topics - Neuroscience News",
+            "url": "https://neurosciencenews.com/neuroscience-topics/neuroscience/visual-neuroscience",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.87605256,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Visual Neuroscience | Cambridge Core",
+            "url": "https://www.cambridge.org/core/journals/visual-neuroscience",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8173562,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Home Page: Visual Neuroscience",
+            "url": "https://www.cns.nyu.edu/~tony/vns",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.798077,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Visual Cognitive Neuroscience",
+            "url": "https://oecs.mit.edu/pub/8w58nrk1",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7969415,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "The Neuroscience behind Vision - MSU MediaSpace",
+            "url": "https://mediaspace.msu.edu/media/The+Neuroscience+behind+Vision/1_t8pyb78p",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7211353,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "A Window to the Brain—The Enduring Impact of Vision ... - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12110026",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6501347,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Connecting neural activity, perception in the visual system | The Transmitter: Neuroscience News and Perspectives",
+            "url": "https://www.thetransmitter.org/the-big-picture/the-visual-systems-lingering-mystery-connecting-neural-activity-and-perception",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.63179934,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Welcome to Class: Visual Neuroscience",
+            "url": "https://www.youtube.com/watch?v=dpqbS49VQ5o",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.61695945,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "10-Minute Neuroscience: Visual Pathways",
+            "url": "https://www.youtube.com/watch?v=ZmOL_6wJf4E",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.57637566,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Visual Processing: Cortical Pathways (Section 2, Chapter 15) Neuroscience Online: An Electronic Textbook for the Neurosciences | Department of Neurobiology and Anatomy - The University of Texas Medical School at Houston",
+            "url": "https://nba.uth.tmc.edu/neuroscience/m/s2/chapter15.html",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.57637566,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision in the brain – hardwired for action - Max Planck Neuroscience",
+            "url": "https://maxplanckneuroscience.org/vision-in-the-brain-hardwired-for-action",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5712171,
+            "metadata": {}
+        }
+    ]
+}

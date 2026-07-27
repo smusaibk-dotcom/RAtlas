@@ -1,12 +1,13 @@
 # ==========================================================
 # HTML TOOL
 # ==========================================================
-import trafilatura
-import httpx
-from bs4 import BeautifulSoup
-import pandas as pd
-from playwright.sync_api import sync_playwright
 from io import StringIO
+
+import httpx
+import pandas as pd
+import trafilatura
+from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 
 class HTMLTool:

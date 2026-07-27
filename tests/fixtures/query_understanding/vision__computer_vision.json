@@ -1,0 +1,11 @@
+{
+    "original_query": "vision",
+    "refined_query": "computer vision",
+    "intent": "RESEARCH",
+    "research_domain": "Artificial Intelligence & Machine Learning",
+    "confidence_score": 0.95,
+    "status": "PROCEED",
+    "clarification_message": null,
+    "clarification_options": [],
+    "ambiguity_reason": null
+}

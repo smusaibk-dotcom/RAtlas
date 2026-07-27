@@ -1,3 +1,6 @@
+import random
+from pathlib import Path
+
 from application.dto.llm_message import LLMMessage, MessageRole
 from application.dto.llm_request import LLMRequest
 from application.dto.query_understanding_result import QueryUnderstandingResult
@@ -18,6 +21,44 @@ class QueryUnderstandingAdapter(QueryUnderstandingPort):
         self._llm = llm
 
     def analyze(self, query: str) -> QueryUnderstandingResult:
+        query = query.strip()
+        if query.startswith("Original Query:"):
+            original_query = (
+                query.split("User Clarification:")[0].replace("Original Query:", "").strip()
+            )
+
+        else:
+            original_query = query.strip()
+
+        if "User Clarification:" in query:
+            clarification = (
+                query.split("User Clarification:")[1]
+                .strip()
+                .lower()
+                .replace(" ", "_")
+                .replace("/", "_")
+            )
+
+            fixture_name = f"{original_query.lower().replace(' ', '_')}__{clarification}"
+
+        else:
+            fixture_name = original_query.lower().replace(" ", "_").replace("/", "_")
+
+        fixture_path = Path("tests/fixtures/query_understanding") / f"{fixture_name}.json"
+
+        if DEV_MODE and USE_FIXTURES:
+            print("LOAD:", fixture_name)
+
+            cached = FixtureManager.load(
+                "query_understanding",
+                fixture_name,
+            )
+
+            if cached is not None:
+                print("Loaded Query Understanding fixture.")
+
+                return QueryUnderstandingResult.model_validate(cached)
+
         parser = PydanticParser.get_parser(QueryUnderstandingResult)
 
         system_prompt = SYSTEM_PROMPT + "\n\n" + parser.get_format_instructions()
@@ -38,4 +79,18 @@ class QueryUnderstandingAdapter(QueryUnderstandingPort):
             temperature=0.0,
         )
 
-        return self._llm.generate(request)
+        result = self._llm.generate(request)
+
+        if DEV_MODE and USE_FIXTURES:
+            if fixture_path.exists():
+                fixture_name = f"{fixture_name}_{random.randint(100, 999)}"
+
+            print("SAVE:", fixture_name)
+
+            FixtureManager.save(
+                "query_understanding",
+                fixture_name,
+                result.model_dump(),
+            )
+
+        return result

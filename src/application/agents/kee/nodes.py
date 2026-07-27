@@ -1,29 +1,24 @@
-from application.agents.kee.states import KEEState
-from application.dto.llm_request import LLMRequest
-from infrastructure.adapters.llm_adapter import LLMAdapter
 from infrastructure.tools.tools import (
-    HTMLTool,
-    PDFTool,
     ArxivTool,
-    PubMedTool,
     GitHubTool,
-    YouTubeTool,
+    HTMLTool,
     ImageTool,
+    PDFTool,
+    PubMedTool,
+    YouTubeTool,
 )
 
-from infrastructure.prompts.kee_system_prompt import (
-    build_kee_system_prompt,
-)
-from infrastructure.prompts.kee_reason_user_prompt import (
-    build_kee_user_prompt,
-)
-
+from application.agents.kee.states import KEEState
 from application.dto.llm_message import (
     LLMMessage,
     MessageRole,
 )
-
+from application.dto.llm_request import LLMRequest
 from application.services.chunker import Chunker
+from infrastructure.adapters.llm_adapter import LLMAdapter
+from infrastructure.prompts.kee_system_prompt import (
+    build_kee_system_prompt,
+)
 
 
 class KEENodes:

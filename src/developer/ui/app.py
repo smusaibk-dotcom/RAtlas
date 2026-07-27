@@ -1,11 +1,8 @@
 import streamlit as st
 
-from developer.ui.config import *
-
 from developer.ui.components.sidebar import sidebar
-
+from developer.ui.config import *
 from developer.ui.pages.dashboard import dashboard
-
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout=LAYOUT)
 

@@ -3,9 +3,10 @@
 # ==========================================================
 
 import io
+
 import httpx
-from PIL import Image
 import pytesseract
+from PIL import Image
 from PIL.ExifTags import TAGS
 from playwright.sync_api import sync_playwright
 

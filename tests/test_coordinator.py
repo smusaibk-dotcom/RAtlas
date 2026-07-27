@@ -6,15 +6,14 @@ from application.services.search_query_generation_service import (
     SearchQueryGenerationService,
 )
 from application.services.search_service import SearchService
-
 from infrastructure.adapters.llm_adapter import LLMAdapter
 from infrastructure.adapters.query_understanding_adapter import (
     QueryUnderstandingAdapter,
 )
+from infrastructure.adapters.search_adapter import SearchAdapter
 from infrastructure.adapters.search_query_generation_adapter import (
     SearchQueryGenerationAdapter,
 )
-from infrastructure.adapters.search_adapter import SearchAdapter
 
 
 def main():

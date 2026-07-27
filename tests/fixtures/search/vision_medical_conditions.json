@@ -1,0 +1,202 @@
+{
+    "search_query": {
+        "query": "vision medical conditions",
+        "reason": "Knowledge of medical conditions affecting vision can provide a more comprehensive explanation.",
+        "priority": 5,
+        "max_results": 30
+    },
+    "requested_results": 30,
+    "retrieved_results": 21,
+    "response_time": 1.23,
+    "resources": [
+        {
+            "id": null,
+            "title": "Eye and Vision Conditions | AOA",
+            "url": "https://www.aoa.org/healthy-eyes/eye-and-vision-conditions",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.81630427,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Eye Conditions and Diseases: Articles on Symptoms, Causes",
+            "url": "https://www.allaboutvision.com/conditions",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.69746524,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision disorder - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Vision_disorder",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.69399214,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Your Guide to Common Eye Conditions & Vision Problems",
+            "url": "https://www.professionaleye.com/eye-conditions",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.67988104,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision problems",
+            "url": "https://www.pennmedicine.org/conditions/vision-problems",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.657561,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Eye Diseases - Research to Prevent Blindness",
+            "url": "https://www.rpbusa.org/eye-diseases",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.64478505,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Medical Disorders that may Cause Eye Problems",
+            "url": "https://www.richmondeye.com/eyehealth_medical",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.64182705,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision problems: MedlinePlus Medical Encyclopedia",
+            "url": "https://medlineplus.gov/ency/article/003029.htm",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.64128816,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Types of Medical Conditions That Affect Eye Health | Broberg Eye Care",
+            "url": "https://brobergeyecare.com/cataracts/types-of-medical-conditions-that-affect-eye-health",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.62495816,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Common Eye Conditions - Astigmatism",
+            "url": "https://www.uabmedicine.org/specialties/common-eye-conditions",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.60498303,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Eye Conditions and Diseases - National Eye Institute - NIH",
+            "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5559422,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Eye Conditions and Diseases | National Eye Institute",
+            "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5504388,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Common Eye Conditions - Columbia Eye",
+            "url": "https://columbiaeye.com/common-eye-conditions",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5411427,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "About Common Eye Disorders and Diseases",
+            "url": "https://www.cdc.gov/vision-health/about-eye-disorders/index.html",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5272928,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Blindness and vision impairment",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.44174582,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Eye Diseases | Glaucoma | MedlinePlus",
+            "url": "https://medlineplus.gov/eyediseases.html",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.41137156,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Vision and Eye Health",
+            "url": "https://www.cdc.gov/vision-health/index.html",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.39215115,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Eye Diseases: Types, Symptoms, Causes & Treatment Options",
+            "url": "https://my.clevelandclinic.org/health/diseases/eye-diseases",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.32933828,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Diseases & Conditions - American Academy of Ophthalmology",
+            "url": "https://www.aao.org/eye-health/diseases/vision-problems",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.31289515,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Eye Diseases: Symptoms & Causes of 19 Common Eye Problems - WebMD",
+            "url": "https://www.webmd.com/eye-health/common-eye-problems",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.29752147,
+            "metadata": {}
+        },
+        {
+            "id": null,
+            "title": "Eye Health A-Z",
+            "url": "https://www.aao.org/eye-health/a-z",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.29319245,
+            "metadata": {}
+        }
+    ]
+}

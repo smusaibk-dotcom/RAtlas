@@ -1,32 +1,40 @@
-from infrastructure.tools.tools import GitHubTool
+import asyncio
+
+from application.dto.resource_reference import ResourceReference
+from infrastructure.parsers.parse_chunk_tool import ParseChunkTool
 
 
-tool = GitHubTool()
+async def main():
+    parser = ParseChunkTool()
 
-result = tool.clone_repository("https://github.com/pallets/flask.git")
-
-if result["success"]:
-    repository = result["content"]
-
-    readme = tool.extract_readme(repository)
-
-    files = tool.fetch_directory(
-        repository,
-        "",
+    resource = ResourceReference(
+        id="github-test",
+        title="FastAPI",
+        url="https://github.com/fastapi/fastapi",
+        provider="test",
     )
 
-    app = tool.fetch_file(
-        repository,
-        "src/flask/app.py",
-    )
+    documents = await parser.run(resource)
 
-    print(readme["content"][:500])
+    print(type(documents))
+    print(len(documents))
 
-    print(len(files["content"]))
+    doc = documents[0]
 
-    print(app["content"][:500])
+    print("=" * 100)
+    print(type(doc))
+    print("=" * 100)
 
-else:
-    print(result)
+    print(dir(doc))
 
-tool.cleanup()
+    print("=" * 100)
+    print(doc)
+
+    print("=" * 100)
+    print(doc.text[:2000])
+
+    print("=" * 100)
+    print(doc.metadata)
+
+
+asyncio.run(main())

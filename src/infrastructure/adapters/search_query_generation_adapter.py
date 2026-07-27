@@ -1,3 +1,4 @@
+
 from application.dto.llm_message import LLMMessage, MessageRole
 from application.dto.llm_request import LLMRequest
 from application.dto.query_understanding_result import (
@@ -12,6 +13,8 @@ from infrastructure.parsers.pydantic_parser import PydanticParser
 from infrastructure.prompts.search_query_generation_prompt import (
     SYSTEM_PROMPT,
 )
+from shared.config import DEV_MODE, USE_FIXTURES
+from shared.fixture_manager import FixtureManager
 
 
 class SearchQueryGenerationAdapter(
@@ -27,6 +30,29 @@ class SearchQueryGenerationAdapter(
         self,
         query: QueryUnderstandingResult,
     ) -> SearchQueryResult:
+        fixture_name = (
+            query.refined_query.lower()
+            .strip()
+            .replace(" ", "_")
+            .replace("/", "_")
+            .replace("(", "")
+            .replace(")", "")
+            .replace(",", "")
+        )
+
+        if DEV_MODE and USE_FIXTURES:
+            print("LOAD:", fixture_name)
+
+            cached = FixtureManager.load(
+                "search_query_generation",
+                fixture_name,
+            )
+
+            if cached is not None:
+                print("Loaded Search Query fixture.")
+
+                return SearchQueryResult.model_validate(cached)
+
         parser = PydanticParser.get_parser(SearchQueryResult)
 
         system_prompt = SYSTEM_PROMPT + "\n\n" + parser.get_format_instructions()
@@ -47,4 +73,15 @@ class SearchQueryGenerationAdapter(
             temperature=0.2,
         )
 
-        return self._llm.generate(request)
+        result = self._llm.generate(request)
+
+        if DEV_MODE and USE_FIXTURES:
+            print("SAVE:", fixture_name)
+
+            FixtureManager.save(
+                "search_query_generation",
+                fixture_name,
+                result.model_dump(),
+            )
+
+        return result

@@ -1,6 +1,5 @@
 from infrastructure.tools.tools import BrowserTool
 
-
 tool = BrowserTool()
 
 print(tool.launch())

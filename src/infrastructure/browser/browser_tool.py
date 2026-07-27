@@ -1,14 +1,16 @@
+import os
+import tempfile
 from pathlib import Path
-
-from playwright.sync_api import (
-    Browser,
-    Page,
-    sync_playwright,
-)
+from urllib.parse import parse_qs, urlparse
 
 import httpx
-
-import tempfile
+from llama_index.readers.github import GithubClient, GithubRepositoryReader
+from playwright.async_api import (
+    Browser,
+    Page,
+    async_playwright,
+)
+from youtube_transcript_api import YouTubeTranscriptApi
 
 
 class BrowserAgent:
@@ -25,18 +27,18 @@ class BrowserAgent:
         self._browser: Browser | None = None
         self._page: Page | None = None
 
-    def launch(
+    async def launch(
         self,
         headless: bool = True,
     ) -> dict:
         try:
-            self._playwright = sync_playwright().start()
+            self._playwright = await async_playwright().start()
 
-            self._browser = self._playwright.chromium.launch(
+            self._browser = await self._playwright.chromium.launch(
                 headless=headless,
             )
 
-            self._page = self._browser.new_page()
+            self._page = await self._browser.new_page()
 
             return {
                 "success": True,
@@ -53,14 +55,15 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def goto(
+    async def goto(
         self,
         url: str,
     ) -> dict:
         try:
-            response = self._page.goto(
+            response = await self._page.goto(
                 url,
-                wait_until="networkidle",
+                wait_until="domcontentloaded",
+                timeout=60000,
             )
 
             return {
@@ -78,12 +81,12 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def click(
+    async def click(
         self,
         selector: str,
     ) -> dict:
         try:
-            self._page.click(
+            await self._page.click(
                 selector,
             )
 
@@ -102,13 +105,13 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def type(
+    async def type(
         self,
         selector: str,
         text: str,
     ) -> dict:
         try:
-            self._page.fill(
+            await self._page.fill(
                 selector,
                 text,
             )
@@ -128,13 +131,13 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def press(
+    async def press(
         self,
         selector: str,
         key: str,
     ) -> dict:
         try:
-            self._page.press(
+            await self._page.press(
                 selector,
                 key,
             )
@@ -154,12 +157,12 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def wait(
+    async def wait(
         self,
         milliseconds: int,
     ) -> dict:
         try:
-            self._page.wait_for_timeout(
+            await self._page.wait_for_timeout(
                 milliseconds,
             )
 
@@ -178,12 +181,12 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def scroll(
+    async def scroll(
         self,
         pixels: int,
     ) -> dict:
         try:
-            self._page.mouse.wheel(
+            await self._page.mouse.wheel(
                 0,
                 pixels,
             )
@@ -203,13 +206,13 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def current_html(
+    async def current_html(
         self,
     ) -> dict:
         try:
             return {
                 "success": True,
-                "content": self._page.content(),
+                "content": await self._page.content(),
                 "status_code": None,
                 "error": None,
             }
@@ -222,7 +225,7 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def current_url(
+    async def current_url(
         self,
     ) -> dict:
         try:
@@ -241,18 +244,26 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def find_elements(
+    async def find_elements(
         self,
         selector: str,
     ) -> dict:
         try:
             elements = []
 
-            for element in self._page.locator(selector).all():
+            locator = self._page.locator(selector)
+
+            count = await locator.count()
+
+            for i in range(count):
+                element = locator.nth(i)
+
+                visible = await element.is_visible()
+
                 elements.append(
                     {
-                        "text": (element.inner_text() if element.is_visible() else ""),
-                        "html": element.evaluate("(e) => e.outerHTML"),
+                        "text": (await element.inner_text() if visible else ""),
+                        "html": await element.evaluate("(e) => e.outerHTML"),
                     }
                 )
 
@@ -271,12 +282,12 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def screenshot(
+    async def screenshot(
         self,
         path: str,
     ) -> dict:
         try:
-            self._page.screenshot(
+            await self._page.screenshot(
                 path=path,
                 full_page=True,
             )
@@ -296,20 +307,18 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def download(
+    async def download(
         self,
         selector: str,
         path: str,
     ) -> dict:
         try:
-            with self._page.expect_download() as download:
-                self._page.click(
-                    selector,
-                )
+            async with self._page.expect_download() as download_info:
+                await self._page.click(selector)
 
-            download.value.save_as(
-                path,
-            )
+            download = await download_info.value
+
+            await download.save_as(path)
 
             return {
                 "success": True,
@@ -326,19 +335,18 @@ class BrowserAgent:
                 "error": str(e),
             }
 
-    def download_pdf(
+    async def download_pdf(
         self,
         url: str,
     ) -> Path:
-        response = httpx.get(
-            url,
+        async with httpx.AsyncClient(
             follow_redirects=True,
             timeout=60.0,
             headers={
                 "User-Agent": "Ratlas/1.0",
             },
-        )
-
+        ) as client:
+            response = await client.get(url)
         response.raise_for_status()
 
         temp_dir = Path(
@@ -355,31 +363,109 @@ class BrowserAgent:
 
         return pdf_path
 
-    def download_html(
+    async def download_file(
+        self,
+        url: str,
+    ) -> Path:
+        launch_result = await self.launch()
+
+        if not launch_result["success"]:
+            raise RuntimeError(launch_result["error"])
+
+        try:
+            goto_result = await self.goto(url)
+
+            if not goto_result["success"]:
+                raise RuntimeError(goto_result["error"])
+
+            await self.wait(3000)
+
+            temp_dir = Path(
+                tempfile.mkdtemp(
+                    prefix="ratlas_file_",
+                )
+            )
+
+            file_path = temp_dir / "resource.png"
+
+            await self._page.screenshot(
+                path=str(file_path),
+                full_page=True,
+            )
+
+            return file_path
+
+        finally:
+            await self.cleanup()
+
+    async def download_html(
         self,
         url: str,
     ) -> str:
-        response = httpx.get(
-            url,
-            follow_redirects=True,
-            timeout=60.0,
-            headers={
-                "User-Agent": "Ratlas/1.0",
-            },
+        launch_result = await self.launch()
+
+        if not launch_result["success"]:
+            raise RuntimeError(launch_result["error"])
+
+        try:
+            goto_result = await self.goto(url)
+
+            if not goto_result["success"]:
+                raise RuntimeError(goto_result["error"])
+
+            await self.wait(3000)
+
+            html = (await self.current_html())["content"]
+
+            return html
+
+        finally:
+            await self.cleanup()
+
+    async def fetch_github_documents(
+        self,
+        owner: str,
+        repo: str,
+    ):
+        client = GithubClient(
+            github_token=os.getenv("GITHUB_TOKEN"),
         )
 
-        response.raise_for_status()
+        reader = GithubRepositoryReader(
+            github_client=client,
+            owner=owner,
+            repo=repo,
+            use_parser=False,
+        )
 
-        return response.text
+        return reader.load_data(
+            branch="main",
+        )
 
-    def cleanup(
+    async def fetch_youtube_documents(
+        self,
+        video_url: str,
+    ):
+        parsed = urlparse(video_url)
+
+        video_id = parse_qs(
+            parsed.query,
+        )["v"][0]
+
+        transcript = YouTubeTranscriptApi().fetch(
+            video_id,
+        )
+
+        return transcript
+
+    async def cleanup(
         self,
     ) -> None:
         if self._page:
-            self._page.close()
+            await self._page.close()
 
         if self._browser:
-            self._browser.close()
+            await self._browser.close()
 
         if self._playwright:
-            self._playwright.stop()
+            await self._playwright.stop()

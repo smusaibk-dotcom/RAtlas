@@ -304,6 +304,8 @@ dependencies = [
     { name = "langgraph" },
     { name = "llama-index" },
     { name = "llama-index-core" },
+    { name = "llama-index-readers-github" },
+    { name = "llama-index-readers-youtube-transcript" },
     { name = "lxml" },
     { name = "pandas" },
     { name = "pdfplumber" },
@@ -315,6 +317,7 @@ dependencies = [
     { name = "pymupdf" },
     { name = "pytesseract" },
     { name = "python-dotenv" },
+    { name = "readability-lxml" },
     { name = "streamlit" },
     { name = "streamlit-option-menu" },
     { name = "tavily-python" },
@@ -346,6 +349,8 @@ requires-dist = [
     { name = "langgraph", specifier = ">=1.2.9" },
     { name = "llama-index", specifier = ">=0.14.23" },
     { name = "llama-index-core", specifier = ">=0.14.23" },
+    { name = "llama-index-readers-github", specifier = ">=0.11.2" },
+    { name = "llama-index-readers-youtube-transcript", specifier = ">=0.5.0" },
     { name = "lxml", specifier = ">=6.1.1" },
     { name = "pandas", specifier = ">=3.0.3" },
     { name = "pdfplumber", specifier = ">=0.11.10" },
@@ -357,6 +362,7 @@ requires-dist = [
     { name = "pymupdf", specifier = ">=1.28.0" },
     { name = "pytesseract", specifier = ">=0.3.13" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
+    { name = "readability-lxml", specifier = ">=0.8.4.1" },
     { name = "streamlit", specifier = ">=1.60.0" },
     { name = "streamlit-option-menu", specifier = ">=0.4.0" },
     { name = "tavily-python", specifier = ">=0.7.26" },
@@ -2152,6 +2158,33 @@ wheels = [
 ]
 
 [[package]]
+name = "llama-index-readers-github"
+version = "0.11.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "llama-index-core" },
+    { name = "llama-index-embeddings-openai" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/71/ab/7e1b039c674b9ddbf28f40ba2323f2a8bec1d03916dd090662533a6de513/llama_index_readers_github-0.11.2.tar.gz", hash = "sha256:b65ddde1afdabe9881025146b1e9fcdb57f223a1254c24fa3972d1740f832bc1", size = 25933, upload-time = "2026-03-13T16:16:23.872Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c5/7f/7e06b98c30737e268626e2ef13235bff377dd283c04634ecd18e62785ba5/llama_index_readers_github-0.11.2-py3-none-any.whl", hash = "sha256:a5251e01fb7aaaf100f375f29c76f939b5f58ccf70105f890d06f413209f17c6", size = 33741, upload-time = "2026-03-13T16:16:24.658Z" },
+]
+
+[[package]]
+name = "llama-index-readers-youtube-transcript"
+version = "0.5.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "llama-index-core" },
+    { name = "youtube-transcript-api" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/4b/24/05fddf856555bafca8fd711d81b5ccd4571b39918bc683b4ef75ff0c654f/llama_index_readers_youtube_transcript-0.5.0.tar.gz", hash = "sha256:496489ed2574a507de494dbca71cfe0c3d621bb7d735bd0c3c50d8dca77bdd9b", size = 4357, upload-time = "2026-03-12T20:39:25.954Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/48/9b/e90da39358d6c221e05ecc589e345cf03c5028f162b71a878d736ae9ac11/llama_index_readers_youtube_transcript-0.5.0-py3-none-any.whl", hash = "sha256:bb69021d519a71f6cd88dc05a85f3d28e11da4ccd4bfdc4882fbe17e5ba5318d", size = 4479, upload-time = "2026-03-12T20:39:24.967Z" },
+]
+
+[[package]]
 name = "llama-index-workflows"
 version = "2.22.2"
 source = { registry = "https://pypi.org/simple" }
@@ -3867,6 +3900,20 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/55/ed/0ee9b9281986974be9d2406ae0134c8d7c91d2fc613f16ffda9701eeda6f/rapidocr-3.9.2-py3-none-any.whl", hash = "sha256:04d6b8d151f823d930bd91910555f57bea897c0c44fa6794267b94cf9c1ef9a0", size = 27275208, upload-time = "2026-07-21T10:59:01.599Z" },
+]
+
+[[package]]
+name = "readability-lxml"
+version = "0.8.4.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "chardet" },
+    { name = "cssselect" },
+    { name = "lxml", extra = ["html-clean"] },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/55/3e/dc87d97532ddad58af786ec89c7036182e352574c1cba37bf2bf783d2b15/readability_lxml-0.8.4.1.tar.gz", hash = "sha256:9d2924f5942dd7f37fb4da353263b22a3e877ccf922d0e45e348e4177b035a53", size = 22874, upload-time = "2025-05-03T21:11:45.493Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c7/75/2cc58965097e351415af420be81c4665cf80da52a17ef43c01ffbe2caf91/readability_lxml-0.8.4.1-py3-none-any.whl", hash = "sha256:874c0cea22c3bf2b78c7f8df831bfaad3c0a89b7301d45a188db581652b4b465", size = 19912, upload-time = "2025-05-03T21:11:43.993Z" },
 ]
 
 [[package]]

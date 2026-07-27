@@ -1,0 +1,15 @@
+{
+    "original_query": "vision",
+    "refined_query": "vision",
+    "intent": "NEED_CLARIFICATION",
+    "research_domain": "NEED_CLARIFICATION",
+    "confidence_score": 0.0,
+    "status": "NEED_CLARIFICATION",
+    "clarification_message": "Could you please clarify what you mean by 'vision'? Are you referring to a specific field of study, such as computer vision or visual perception?",
+    "clarification_options": [
+        "Computer Vision",
+        "Visual Perception",
+        "Artificial Intelligence"
+    ],
+    "ambiguity_reason": "Multiple research interpretations are possible"
+}

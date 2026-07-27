@@ -1,5 +1,7 @@
 import os
+
 from tavily import TavilyClient as TavilySDK
+
 from infrastructure.exceptions.search_exception import SearchException
 
 
