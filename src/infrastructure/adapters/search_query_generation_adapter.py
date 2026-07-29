@@ -1,4 +1,3 @@
-
 from application.dto.llm_message import LLMMessage, MessageRole
 from application.dto.llm_request import LLMRequest
 from application.dto.query_understanding_result import (

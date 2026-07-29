@@ -1,4 +1,3 @@
-
 from pydantic import BaseModel, Field
 
 from application.dto.llm_message import LLMMessage
