@@ -1,0 +1,34 @@
+{
+    "queries": [
+        {
+            "query": "India EFTA PETA historical context",
+            "reason": "Understanding the historical context of India-EFTA PETA is crucial for research.",
+            "priority": 1,
+            "max_results": 10
+        },
+        {
+            "query": "India EFTA PETA economic implications",
+            "reason": "Economic implications of India-EFTA PETA are essential for research.",
+            "priority": 2,
+            "max_results": 20
+        },
+        {
+            "query": "India EFTA PETA political analysis",
+            "reason": "Political analysis of India-EFTA PETA is vital for research.",
+            "priority": 3,
+            "max_results": 30
+        },
+        {
+            "query": "India EFTA PETA case studies",
+            "reason": "Case studies of India-EFTA PETA can provide valuable insights for research.",
+            "priority": 4,
+            "max_results": 40
+        },
+        {
+            "query": "India EFTA PETA academic papers",
+            "reason": "Academic papers on India-EFTA PETA can provide in-depth research.",
+            "priority": 5,
+            "max_results": 50
+        }
+    ]
+}

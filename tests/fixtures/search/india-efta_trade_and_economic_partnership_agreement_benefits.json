@@ -1,0 +1,184 @@
+{
+    "search_query": {
+        "query": "India-EFTA Trade and Economic Partnership Agreement benefits",
+        "reason": "To identify the advantages of the agreement for India.",
+        "priority": 2,
+        "max_results": 20
+    },
+    "requested_results": 20,
+    "retrieved_results": 19,
+    "response_time": 1.48,
+    "resources": [
+        {
+            "id": "https://www.investindia.gov.in/blogs/impact-india-efta-trade-and-economic-partnership-agreement",
+            "title": "The Impact of India-EFTA Trade and Economic Partnership Agreement",
+            "url": "https://www.investindia.gov.in/blogs/impact-india-efta-trade-and-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9563784,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement",
+            "url": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.93762916,
+            "metadata": {}
+        },
+        {
+            "id": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "title": "Pib India-EFTA Trade Pact: Boosting $100 Billion Investment and 1 Million Jobs",
+            "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.93131906,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.linkedin.com/pulse/indiaefta-trade-economic-partnership-agreement-tepa-historic-mehta-2vcac",
+            "title": "The India–EFTA Trade & Economic Partnership Agreement (TEPA)",
+            "url": "https://www.linkedin.com/pulse/indiaefta-trade-economic-partnership-agreement-tepa-historic-mehta-2vcac",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.92731744,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.india-briefing.com/news/india-efta-tepa-2025-trade-benefits-tariffs-investment-40110.html",
+            "title": "India-EFTA TEPA: Trade Benefits, Tariffs & US$100 Bn Investment",
+            "url": "https://www.india-briefing.com/news/india-efta-tepa-2025-trade-benefits-tariffs-investment-40110.html",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9224337,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "title": "India – EFTA Economic Partnership Agreement",
+            "url": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9152729,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "title": "EFTA-India Trade and Economic Partnership Agreement ...",
+            "url": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.90985113,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.instagram.com/reel/DVtEXobCGNG?hl=en",
+            "title": "The India–EFTA Trade and Economic Partnership Agreement ...",
+            "url": "https://www.instagram.com/reel/DVtEXobCGNG?hl=en",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.90633047,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "title": "A Step into the Right Direction: The India-EFTA Trade ...",
+            "url": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9018604,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.lalive.law/the-india-efta-trade-and-economic-partnership-agreement-what-does-it-mean-for-swiss-businesses",
+            "title": "Insight - The India-EFTA Trade and Economic Partnership Agreement: what does it mean for Swiss businesses? - LALIVE",
+            "url": "https://www.lalive.law/the-india-efta-trade-and-economic-partnership-agreement-what-does-it-mean-for-swiss-businesses",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8752871,
+            "metadata": {}
+        },
+        {
+            "id": "https://saspartners.com/navigating-the-india-efta-free-trade-agreement",
+            "title": "Navigating the India-EFTA Free Trade Agreement: Implications and Strategies for Business Success - saspartners",
+            "url": "https://saspartners.com/navigating-the-india-efta-free-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8690161,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.youtube.com/watch?v=I4a_vLjv_sE",
+            "title": "India-EFTA Trade & Economic Partnership Agreement To Take Effect From Oct 1, 2025 | News9",
+            "url": "https://www.youtube.com/watch?v=I4a_vLjv_sE",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.850382,
+            "metadata": {}
+        },
+        {
+            "id": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/india/eu-india-agreements/factsheet-eu-india-free-trade-agreement-main-benefits_en",
+            "title": "Factsheet - EU-India Free Trade Agreement: Main benefits - Trade and Economic Security",
+            "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/india/eu-india-agreements/factsheet-eu-india-free-trade-agreement-main-benefits_en",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8482825,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.scribd.com/document/727192205/wepik-strengthening-economic-ties-the-india-efta-free-trade-agreement-20240322022257FQoZ",
+            "title": "India-EFTA Free Trade Agreement Overview | PDF",
+            "url": "https://www.scribd.com/document/727192205/wepik-strengthening-economic-ties-the-india-efta-free-trade-agreement-20240322022257FQoZ",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8116913,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.quora.com/Is-the-India-EFTA-Trade-and-Economic-Partnership-Agreement-a-completely-free-trade-agreement",
+            "title": "Is the India-EFTA Trade and Economic Partnership Agreement a ...",
+            "url": "https://www.quora.com/Is-the-India-EFTA-Trade-and-Economic-Partnership-Agreement-a-completely-free-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.78866494,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.thehindu.com/news/national/india-efta-trade-pact-to-be-implemented-from-october-1-piyush-goyal/article69831327.ece/amp",
+            "title": "India-EFTA trade pact to be implemented from October 1: Piyush ...",
+            "url": "https://www.thehindu.com/news/national/india-efta-trade-pact-to-be-implemented-from-october-1-piyush-goyal/article69831327.ece/amp",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.76321954,
+            "metadata": {}
+        },
+        {
+            "id": "https://chintan.indiafoundation.in/articles/indias-strategic-leap-a-detailed-critique-and-analysis-of-the-efta-trade-pact",
+            "title": "India's Strategic Leap: A Detailed Critique and Analysis of the EFTA ...",
+            "url": "https://chintan.indiafoundation.in/articles/indias-strategic-leap-a-detailed-critique-and-analysis-of-the-efta-trade-pact",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.67885995,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.youtube.com/watch?v=MKFYMBAcxu0",
+            "title": "India-EFTA Trade Deal Takes Effect | DD India",
+            "url": "https://www.youtube.com/watch?v=MKFYMBAcxu0",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6205532,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India | European Free Trade Association",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5815176,
+            "metadata": {}
+        }
+    ]
+}

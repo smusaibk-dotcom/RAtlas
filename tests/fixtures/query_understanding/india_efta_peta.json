@@ -1,0 +1,15 @@
+{
+    "original_query": "india efta peta",
+    "refined_query": "india efta peta",
+    "intent": "RESEARCH",
+    "research_domain": "History",
+    "confidence_score": 0.0,
+    "status": "NEED_CLARIFICATION",
+    "clarification_message": "Could you please clarify which EFTA and PETA you are referring to? Are you interested in the European Free Trade Association or People for the Ethical Treatment of Animals, or perhaps the European Payments Council's Payment and Electronic Money Transfer System?",
+    "clarification_options": [
+        "European Free Trade Association",
+        "People for the Ethical Treatment of Animals",
+        "European Payments Council's Payment and Electronic Money Transfer System"
+    ],
+    "ambiguity_reason": "Multiple research interpretations are possible"
+}

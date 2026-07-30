@@ -1,0 +1,247 @@
+{
+    "search_query": {
+        "query": "India EFTA PETA case studies",
+        "reason": "Case studies of India-EFTA PETA can provide valuable insights for research.",
+        "priority": 4,
+        "max_results": 40
+    },
+    "requested_results": 40,
+    "retrieved_results": 26,
+    "response_time": 1.46,
+    "resources": [
+        {
+            "id": "https://en.wikipedia.org/wiki/People_for_the_Ethical_Treatment_of_Animals",
+            "title": "People for the Ethical Treatment of Animals - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/People_for_the_Ethical_Treatment_of_Animals",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.4622066,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.legitquest.com/case/people-for-the-ethical-treatment-of-animals-peta-india-v-the-union-of-india-ors/785B7D",
+            "title": "Read more on PEOPLE FOR THE ETHICAL TREATMENT OF ANIMALS, (PETA) INDIA Vs. THE UNION OF INDIA & ORS on 14 August, 2023 - Legitquest. Find Court Judgments and Legal Cases in India",
+            "url": "https://www.legitquest.com/case/people-for-the-ethical-treatment-of-animals-peta-india-v-the-union-of-india-ors/785B7D",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.43496582,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.petaindia.com",
+            "title": "PETA India: India’s Animal Rights Organisation | PETA India",
+            "url": "https://www.petaindia.com",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.43467787,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.casemine.com/judgement/in/65ce2f2cf7fdd60e861a0976",
+            "title": "PEOPLE FOR THE ETHICAL TREATMENT OF ANIMALS, (PETA) INDIA v ...",
+            "url": "https://www.casemine.com/judgement/in/65ce2f2cf7fdd60e861a0976",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.43395805,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.casemine.com/judgement/in/5c060c59b338d16e11efe617",
+            "title": "People for the Ethical Treatment of Animals PETA India v ...",
+            "url": "https://www.casemine.com/judgement/in/5c060c59b338d16e11efe617",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.42419788,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.peta.org/news/high-court-orders-action-against-palamur",
+            "title": "High Court in India Orders Action Against Bloody Laboratory Exposed by PETA India | PETA",
+            "url": "https://www.peta.org/news/high-court-orders-action-against-palamur",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.41976747,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.peta.org/category/programs/peta-india",
+            "title": "PETA India page 1 | PETA",
+            "url": "https://www.peta.org/category/programs/peta-india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.40147716,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.petaindia.com/blog/peta-science-consortium-international-celebrates-10-years-of-saving-animals",
+            "title": "PETA Science Consortium International Celebrates 10 Years of Saving Animals - Blog - PETA India",
+            "url": "https://www.petaindia.com/blog/peta-science-consortium-international-celebrates-10-years-of-saving-animals",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3626311,
+            "metadata": {}
+        },
+        {
+            "id": "https://ielp.worldtradelaw.net/2024/03/guest-post-efta-india-tepa-breaking-new-ground",
+            "title": "Guest Post: EFTA-India TEPA: Breaking New Ground",
+            "url": "https://ielp.worldtradelaw.net/2024/03/guest-post-efta-india-tepa-breaking-new-ground",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3624957,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-free-trade-agreement",
+            "title": "India-EFTA Free Trade Agreement",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-free-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3564248,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_India",
+            "title": "Free trade agreements of India - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_India",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3467409,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-efta-deal-a-new-chapter-in-trade-agreements",
+            "title": "India-EFTA Deal: A New Chapter in Trade Agreements",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-efta-deal-a-new-chapter-in-trade-agreements",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3355473,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.iiss.org/online-analysis/online-analysis/2026/01/indias-renewed-focus-on-free-trade-agreements",
+            "title": "India’s renewed focus on free-trade agreements",
+            "url": "https://www.iiss.org/online-analysis/online-analysis/2026/01/indias-renewed-focus-on-free-trade-agreements",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.33047172,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.peta.org/news/peta-prompts-first-police-probe-of-indian-dog-laboratory",
+            "title": "Seismic Shift as PETA India Prompts First-Ever Police Probe of Indian Dog Laboratory | PETA",
+            "url": "https://www.peta.org/news/peta-prompts-first-police-probe-of-indian-dog-laboratory",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3025976,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "title": "India – EFTA Economic Partnership Agreement | EY - Switzerland",
+            "url": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.30071527,
+            "metadata": {}
+        },
+        {
+            "id": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "title": "EFTA - India Trade and Economic Partnership Agreement (TEPA) (2024) - Electronic Database of Investment Treaties (EDIT)",
+            "url": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.29939237,
+            "metadata": {}
+        },
+        {
+            "id": "https://astrealegal.com/wp-content/uploads/2025/10/India–EFTA-Trade-and-Economic-Partnership.pdf",
+            "title": "India–EFTA Trade and Economic Partnership - astrealegal.com",
+            "url": "https://astrealegal.com/wp-content/uploads/2025/10/India–EFTA-Trade-and-Economic-Partnership.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.28822386,
+            "metadata": {}
+        },
+        {
+            "id": "https://thelawcommunicants.com/wp-content/uploads/2023/08/PEOPLE-FOR-THE-ETHICAL-TREATMENT-OF-ANIMALS-PETA-INDIA-v.-THE-UNION-OF-INDIA-ORS-24-August-2023.pdf",
+            "title": "IN THE HIGH COURT OF DELHI AT NEW DELHI",
+            "url": "https://thelawcommunicants.com/wp-content/uploads/2023/08/PEOPLE-FOR-THE-ETHICAL-TREATMENT-OF-ANIMALS-PETA-INDIA-v.-THE-UNION-OF-INDIA-ORS-24-August-2023.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.27685958,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.facebook.com/TheCSRJournal/posts/peta-india-has-submitted-two-science-based-roadmaps-to-the-prime-ministers-offic/1199988615555858",
+            "title": "PETA India has submitted two science-based roadmaps ...",
+            "url": "https://www.facebook.com/TheCSRJournal/posts/peta-india-has-submitted-two-science-based-roadmaps-to-the-prime-ministers-offic/1199988615555858",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.2745852,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.26785722,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.tandfonline.com/doi/full/10.1080/09700161.2024.2404607",
+            "title": "India- EFTA Free Trade Agreement: Template for Trade ...",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/09700161.2024.2404607",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.26392224,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pmfias.com/india-efta-tepa",
+            "title": "India-EFTA Trade & Economic Partnership Agreement (TEPA)",
+            "url": "https://www.pmfias.com/india-efta-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.22666417,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India - European Free Trade Association (EFTA)",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.21865308,
+            "metadata": {}
+        },
+        {
+            "id": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/bit/5123/efta---india-tepa-2024-",
+            "title": "EFTA - India TEPA (2024) | International Investment Agreements Navigator | UNCTAD Investment Policy Hub",
+            "url": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/bit/5123/efta---india-tepa-2024-",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.21531813,
+            "metadata": {}
+        },
+        {
+            "id": "https://pib.gov.in/PressReleasePage.aspx?PRID=2076226",
+            "title": "Press Release Page | Press Information Bureau",
+            "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2076226",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.12959012,
+            "metadata": {}
+        },
+        {
+            "id": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-seeks-early-resolution-of-issues-related-to-implementation-of-efta-trade-pact/articleshow/130964728.cms?from=mdr",
+            "title": "India seeks early resolution of issues related to implementation of EFTA trade pact - The Economic Times",
+            "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-seeks-early-resolution-of-issues-related-to-implementation-of-efta-trade-pact/articleshow/130964728.cms?from=mdr",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.110327505,
+            "metadata": {}
+        }
+    ]
+}

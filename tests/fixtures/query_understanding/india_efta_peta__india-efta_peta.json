@@ -1,0 +1,11 @@
+{
+    "original_query": "india efta peta",
+    "refined_query": "India-EFTA PETA",
+    "intent": "RESEARCH",
+    "research_domain": "History",
+    "confidence_score": 0.95,
+    "status": "PROCEED",
+    "clarification_message": null,
+    "clarification_options": [],
+    "ambiguity_reason": null
+}

@@ -1,0 +1,1302 @@
+[
+    {
+        "chunk_id": "fcb270b5aab8cc9739a1283ed364b7fdcca05b7fc134ef71f6e20c444770d1a7",
+        "heading": "India-EFTA Trade and Economic Partnership Agreement",
+        "candidates": [
+            {
+                "text": "India-EFTA Trade and Economic Partnership Agreement",
+                "candidate_type": "concept",
+                "evidence": "The India-EFTA Trade and Economic Partnership Agreement (TEPA) is a comprehensive free trade agreement between the European Free Trade Association (EFTA) states ( Iceland , Liechtenstein , Norway , and Switzerland ) and the Republic of India ."
+            },
+            {
+                "text": "India",
+                "candidate_type": "entity",
+                "evidence": "the Republic of India"
+            },
+            {
+                "text": "EFTA",
+                "candidate_type": "entity",
+                "evidence": "the European Free Trade Association (EFTA) states"
+            },
+            {
+                "text": "European Free Trade Association",
+                "candidate_type": "entity",
+                "evidence": "the European Free Trade Association (EFTA) states"
+            },
+            {
+                "text": "Iceland",
+                "candidate_type": "entity",
+                "evidence": "Iceland , Liechtenstein , Norway , and Switzerland"
+            },
+            {
+                "text": "Liechtenstein",
+                "candidate_type": "entity",
+                "evidence": "Iceland , Liechtenstein , Norway , and Switzerland"
+            },
+            {
+                "text": "Norway",
+                "candidate_type": "entity",
+                "evidence": "Iceland , Liechtenstein , Norway , and Switzerland"
+            },
+            {
+                "text": "Switzerland",
+                "candidate_type": "entity",
+                "evidence": "Iceland , Liechtenstein , Norway , and Switzerland"
+            },
+            {
+                "text": "10 March 2024",
+                "candidate_type": "event",
+                "evidence": "It was signed on 10 March 2024,"
+            },
+            {
+                "text": "16 years",
+                "candidate_type": "event",
+                "evidence": "after 16 years of intermittent negotiations,"
+            },
+            {
+                "text": "1 October 2025",
+                "candidate_type": "event",
+                "evidence": "and entered into force on 1 October 2025"
+            },
+            {
+                "text": "TEPA",
+                "candidate_type": "concept",
+                "evidence": "The India-EFTA Trade and Economic Partnership Agreement (TEPA)"
+            },
+            {
+                "text": "tariffs",
+                "candidate_type": "concept",
+                "evidence": "eliminate or reduce tariffs on the majority of goods traded between India and the EFTA countries"
+            },
+            {
+                "text": "services",
+                "candidate_type": "concept",
+                "evidence": "and to liberalize trade in services and investment"
+            },
+            {
+                "text": "investment",
+                "candidate_type": "concept",
+                "evidence": "and to liberalize trade in services and investment"
+            },
+            {
+                "text": "$100 billion",
+                "candidate_type": "concept",
+                "evidence": "an unprecedented investment pledge of $100 billion from the EFTA side to India over 15 years"
+            },
+            {
+                "text": "sustainable development",
+                "candidate_type": "concept",
+                "evidence": "commitments on sustainable development"
+            },
+            {
+                "text": "15 years",
+                "candidate_type": "event",
+                "evidence": "an unprecedented investment pledge of $100 billion from the EFTA side to India over 15 years"
+            }
+        ]
+    },
+    {
+        "chunk_id": "3a0cd6a16c31111f05b7b07f50b0b4964b0c229cfb18b3ad05993642207082f8",
+        "heading": "Negotiations",
+        "candidates": [
+            {
+                "text": "free trade agreement",
+                "candidate_type": "concept",
+                "evidence": "discussions on a free trade agreement"
+            },
+            {
+                "text": "India",
+                "candidate_type": "entity",
+                "evidence": "between India and EFTA"
+            },
+            {
+                "text": "EFTA",
+                "candidate_type": "entity",
+                "evidence": "between India and EFTA"
+            },
+            {
+                "text": "2008",
+                "candidate_type": "event",
+                "evidence": "began in 2008"
+            },
+            {
+                "text": "21 rounds of negotiations",
+                "candidate_type": "event",
+                "evidence": "the two sides held 21 rounds of negotiations"
+            },
+            {
+                "text": "draft agreement",
+                "candidate_type": "concept",
+                "evidence": "finally reaching a draft agreement"
+            },
+            {
+                "text": "2024",
+                "candidate_type": "event",
+                "evidence": "in early 2024"
+            },
+            {
+                "text": "intellectual property rights",
+                "candidate_type": "concept",
+                "evidence": "disagreements on issues such as intellectual property rights"
+            },
+            {
+                "text": "pharmaceutical data exclusivity",
+                "candidate_type": "concept",
+                "evidence": "pharmaceutical data exclusivity, which India resisted"
+            },
+            {
+                "text": "market access",
+                "candidate_type": "concept",
+                "evidence": "market access for sensitive sectors"
+            },
+            {
+                "text": "sensitive sectors",
+                "candidate_type": "concept",
+                "evidence": "market access for sensitive sectors"
+            },
+            {
+                "text": "Prime Minister Narendra Modi",
+                "candidate_type": "entity",
+                "evidence": "Prime Minister Narendra Modi's government"
+            },
+            {
+                "text": "Narendra Modi",
+                "candidate_type": "entity",
+                "evidence": "Prime Minister Narendra Modi's government"
+            },
+            {
+                "text": "government",
+                "candidate_type": "entity",
+                "evidence": "Prime Minister Narendra Modi's government"
+            },
+            {
+                "text": "domestic industries",
+                "candidate_type": "concept",
+                "evidence": "safeguard domestic industries"
+            },
+            {
+                "text": "investment commitments",
+                "candidate_type": "concept",
+                "evidence": "seeking greater investment commitments"
+            },
+            {
+                "text": "EFTA states",
+                "candidate_type": "entity",
+                "evidence": "the EFTA states also gave their assent"
+            },
+            {
+                "text": "tariff concessions",
+                "candidate_type": "concept",
+                "evidence": "tariff concessions in the deal"
+            },
+            {
+                "text": "certain agricultural products",
+                "candidate_type": "concept",
+                "evidence": "certain agricultural products and gold imports"
+            },
+            {
+                "text": "gold imports",
+                "candidate_type": "concept",
+                "evidence": "certain agricultural products and gold imports"
+            },
+            {
+                "text": "New Delhi",
+                "candidate_type": "location",
+                "evidence": "paving the way for the pact to be signed in New Delhi"
+            },
+            {
+                "text": "10 March 2024",
+                "candidate_type": "event",
+                "evidence": "paving the way for the pact to be signed in New Delhi on 10 March 2024"
+            }
+        ]
+    },
+    {
+        "chunk_id": "e576a9284fd18526ff88e6598499881caffff38ebefd633aa6766db9257a28ab",
+        "heading": "Agreement",
+        "candidates": [
+            {
+                "text": "trade agreement",
+                "candidate_type": "concept",
+                "evidence": "The trade agreement was signed in New Delhi by India's commerce and industry minister and the trade ministers of all four EFTA member states on 10 March 2024."
+            },
+            {
+                "text": "India",
+                "candidate_type": "entity",
+                "evidence": "The trade agreement was signed in New Delhi by India's commerce and industry minister and the trade ministers of all four EFTA member states on 10 March 2024."
+            },
+            {
+                "text": "EFTA",
+                "candidate_type": "entity",
+                "evidence": "The trade agreement was signed in New Delhi by India's commerce and industry minister and the trade ministers of all four EFTA member states on 10 March 2024."
+            },
+            {
+                "text": "commerce and industry minister",
+                "candidate_type": "entity",
+                "evidence": "The trade agreement was signed in New Delhi by India's commerce and industry minister and the trade ministers of all four EFTA member states on 10 March 2024."
+            },
+            {
+                "text": "trade ministers",
+                "candidate_type": "entity",
+                "evidence": "The trade agreement was signed in New Delhi by India's commerce and industry minister and the trade ministers of all four EFTA member states on 10 March 2024."
+            },
+            {
+                "text": "10 March 2024",
+                "candidate_type": "event",
+                "evidence": "The trade agreement was signed in New Delhi by India's commerce and industry minister and the trade ministers of all four EFTA member states on 10 March 2024."
+            },
+            {
+                "text": "New Delhi",
+                "candidate_type": "location",
+                "evidence": "The trade agreement was signed in New Delhi by India's commerce and industry minister and the trade ministers of all four EFTA member states on 10 March 2024."
+            },
+            {
+                "text": "14 chapters",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "trade in goods",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "rules of origin",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "customs procedures",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "sanitary and phytosanitary measures (SPS)",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "technical barriers to trade (TBT)",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "trade in services",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "investment promotion",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "intellectual property rights",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "government procurement",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "competition policy",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "dispute settlement",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "trade and sustainable development",
+                "candidate_type": "concept",
+                "evidence": "It is a broad-based free trade agreement with 14 chapters covering areas including trade in goods, rules of origin , customs procedures, sanitary and phytosanitary measures (SPS), technical barriers to trade (TBT), trade in services, investment promotion, intellectual property rights, government procurement, competition policy, dispute settlement, and a chapter on trade and sustainable development."
+            },
+            {
+                "text": "1 October 2025",
+                "candidate_type": "event",
+                "evidence": "Following the signing, each country completed its domestic ratification procedures, and the agreement is set to enter into force on 1 October 2025."
+            },
+            {
+                "text": "1 October 2025",
+                "candidate_type": "date",
+                "evidence": "Following the signing, each country completed its domestic ratification procedures, and the agreement is set to enter into force on 1 October 2025."
+            },
+            {
+                "text": "99.6%",
+                "candidate_type": "metric",
+                "evidence": "Under the terms of the agreement, EFTA states will eliminate or sharply reduce tariffs on the vast majority of imports from India, covering about 99.6% of India's export value to EFTA."
+            },
+            {
+                "text": "95%",
+                "candidate_type": "metric",
+                "evidence": "India, in turn, will reduce or remove duties on most imports from the EFTA bloc, accounting for roughly 95% of EFTA's export value to India."
+            },
+            {
+                "text": "dairy products",
+                "candidate_type": "concept",
+                "evidence": "For example, India's offers exclude highly sensitive items such"
+            }
+        ]
+    },
+    {
+        "chunk_id": "223ed3986e555b398737e13380c2a70c593c7e9182e99346687c07135ec16b35",
+        "heading": "Economic benefits",
+        "candidates": [
+            {
+                "text": "EFTA-India agreement",
+                "candidate_type": "concept",
+                "evidence": "The EFTA-India agreement is expected to significantly expand bilateral trade and investment flows."
+            },
+            {
+                "text": "bilateral trade",
+                "candidate_type": "concept",
+                "evidence": "The EFTA-India agreement is expected to significantly expand bilateral trade and investment flows."
+            },
+            {
+                "text": "investment flows",
+                "candidate_type": "concept",
+                "evidence": "The EFTA-India agreement is expected to significantly expand bilateral trade and investment flows."
+            },
+            {
+                "text": "pharmaceuticals",
+                "candidate_type": "concept",
+                "evidence": "Indian officials project that the pact will boost India's exports of products such as pharmaceuticals, textiles, chemicals, and machinery to the EFTA region."
+            },
+            {
+                "text": "textiles",
+                "candidate_type": "concept",
+                "evidence": "Indian officials project that the pact will boost India's exports of products such as pharmaceuticals, textiles, chemicals, and machinery to the EFTA region."
+            },
+            {
+                "text": "chemicals",
+                "candidate_type": "concept",
+                "evidence": "Indian officials project that the pact will boost India's exports of products such as pharmaceuticals, textiles, chemicals, and machinery to the EFTA region."
+            },
+            {
+                "text": "machinery",
+                "candidate_type": "concept",
+                "evidence": "Indian officials project that the pact will boost India's exports of products such as pharmaceuticals, textiles, chemicals, and machinery to the EFTA region."
+            },
+            {
+                "text": "EFTA region",
+                "candidate_type": "concept",
+                "evidence": "Indian officials project that the pact will boost India's exports of products such as pharmaceuticals, textiles, chemicals, and machinery to the EFTA region."
+            },
+            {
+                "text": "UAE",
+                "candidate_type": "concept",
+                "evidence": "The deal comes after India's recent trade agreements with partners like the UAE and Australia"
+            },
+            {
+                "text": "Australia",
+                "candidate_type": "concept",
+                "evidence": "The deal comes after India's recent trade agreements with partners like the UAE and Australia"
+            },
+            {
+                "text": "global supply chains",
+                "candidate_type": "concept",
+                "evidence": "The deal fits into a broader strategy to integrate India more deeply into global supply chains."
+            },
+            {
+                "text": "EFTA countries",
+                "candidate_type": "concept",
+                "evidence": "EFTA countries, in turn, anticipate improved access for their industries to the Indian market of 1.4 billion consumers."
+            },
+            {
+                "text": "Indian market",
+                "candidate_type": "concept",
+                "evidence": "EFTA countries, in turn, anticipate improved access for their industries to the Indian market of 1.4 billion consumers."
+            },
+            {
+                "text": "1.4 billion consumers",
+                "candidate_type": "concept",
+                "evidence": "EFTA countries, in turn, anticipate improved access for their industries to the Indian market of 1.4 billion consumers."
+            },
+            {
+                "text": "machinery and engineering goods",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "precision instruments",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "Swiss-made watches",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "medical devices",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "pharmaceuticals",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "high-end food products",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "chocolates",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "cheese",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "Indian tariffs",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            },
+            {
+                "text": "fewer trade barriers",
+                "candidate_type": "concept",
+                "evidence": "Sectors such as machinery and engineering goods, precision instruments (for example, Swiss-made watches and medical devices), pharmaceuticals, and high-end food products (like chocolates and cheese) are expected to benefit from reduced Indian tariffs and fewer trade barriers."
+            }
+        ]
+    },
+    {
+        "chunk_id": "b4468dd0d94f7cf4ec28193bc0986307bb7af8f050bd0b0567703a174c686795",
+        "heading": "See also",
+        "candidates": [
+            {
+                "text": "edit",
+                "candidate_type": "verb",
+                "evidence": "[ edit ]"
+            }
+        ]
+    },
+    {
+        "chunk_id": "f374c85366b56584e8a6d459f0aad5de5265d8b8f0aefa36910096a91b866f48",
+        "heading": "References",
+        "candidates": [
+            {
+                "text": "[ edit ]",
+                "candidate_type": "protocol",
+                "evidence": "[ edit ]"
+            }
+        ]
+    },
+    {
+        "chunk_id": "daef2368b14b25256dc8222eef243e12dc0ed4c98c31ee2839d88ef642086cb4",
+        "heading": "",
+        "candidates": [
+            {
+                "text": "Free Trade Agreement",
+                "candidate_type": "concept",
+                "evidence": "The Free Trade Agreement between the EFTA States (Switzerland, Norway, Iceland, and Principality of Liechtenstein) and India is the result of 16 years of negotiations,"
+            },
+            {
+                "text": "EFTA States",
+                "candidate_type": "entities",
+                "evidence": "The Free Trade Agreement between the EFTA States (Switzerland, Norway, Iceland, and Principality of Liechtenstein) and India is the result of 16 years of negotiations,"
+            },
+            {
+                "text": "Switzerland",
+                "candidate_type": "entities",
+                "evidence": "The Free Trade Agreement between the EFTA States (Switzerland, Norway, Iceland, and Principality of Liechtenstein) and India is the result of 16 years of negotiations,"
+            },
+            {
+                "text": "Norway",
+                "candidate_type": "entities",
+                "evidence": "The Free Trade Agreement between the EFTA States (Switzerland, Norway, Iceland, and Principality of Liechtenstein) and India is the result of 16 years of negotiations,"
+            },
+            {
+                "text": "Iceland",
+                "candidate_type": "entities",
+                "evidence": "The Free Trade Agreement between the EFTA States (Switzerland, Norway, Iceland, and Principality of Liechtenstein) and India is the result of 16 years of negotiations,"
+            },
+            {
+                "text": "Principality of Liechtenstein",
+                "candidate_type": "entities",
+                "evidence": "The Free Trade Agreement between the EFTA States (Switzerland, Norway, Iceland, and Principality of Liechtenstein) and India is the result of 16 years of negotiations,"
+            },
+            {
+                "text": "India",
+                "candidate_type": "entities",
+                "evidence": "The Free Trade Agreement between the EFTA States (Switzerland, Norway, Iceland, and Principality of Liechtenstein) and India is the result of 16 years of negotiations,"
+            },
+            {
+                "text": "European trade relations",
+                "candidate_type": "concept",
+                "evidence": "The Free Trade Agreement between the EFTA States (Switzerland, Norway, Iceland, and Principality of Liechtenstein) and India is the result of 16 years of negotiations, marking a significant milestone for European trade relations."
+            },
+            {
+                "text": "European countries",
+                "candidate_type": "entities",
+                "evidence": "By being the first European countries to secure a trade agreement with India,"
+            },
+            {
+                "text": "world's most populous country",
+                "candidate_type": "concept",
+                "evidence": "By being the first European countries to secure a trade agreement with India, the world's most populous country,"
+            },
+            {
+                "text": "Switzerland",
+                "candidate_type": "entities",
+                "evidence": "For Switzerland particularly,"
+            },
+            {
+                "text": "easier access",
+                "candidate_type": "concept",
+                "evidence": "the deal offers easier access to one of the world's fastest-growing markets."
+            },
+            {
+                "text": "one of the world's fastest-growing markets",
+                "candidate_type": "concept",
+                "evidence": "the deal offers easier access to one of the world's fastest-growing markets."
+            },
+            {
+                "text": "industrial tariffs",
+                "candidate_type": "concept",
+                "evidence": "It demonstrates that even with the abolition of industrial tariffs in 2024,"
+            },
+            {
+                "text": "2024",
+                "candidate_type": "year",
+                "evidence": "It demonstrates that even with the abolition of industrial tariffs in 2024,"
+            },
+            {
+                "text": "Switzerland",
+                "candidate_type": "entities",
+                "evidence": "Switzerland can still provide attractive incentives for negotiating new trade agreements."
+            },
+            {
+                "text": "Indian exporters",
+                "candidate_type": "entities",
+                "evidence": "The agreement is also advantageous for Indian exporters,"
+            },
+            {
+                "text": "organic chemicals",
+                "candidate_type": "concept",
+                "evidence": "particularly those in the organic chemicals,"
+            },
+            {
+                "text": "pharmaceuticals",
+                "candidate_type": "concept",
+                "evidence": "particularly those in the organic chemicals, pharmaceuticals,"
+            },
+            {
+                "text": "food processing industries",
+                "candidate_type": "concept",
+                "evidence": "particularly those in the organic chemicals, pharmaceuticals, and food processing industries,"
+            },
+            {
+                "text": "EFTA and Swiss markets",
+                "candidate_type": "concept",
+                "evidence": "targeting the EFTA and Swiss markets."
+            },
+            {
+                "text": "EFTA",
+                "candidate_type": "entities",
+                "evidence": "targeting the EFTA and Swiss markets."
+            },
+            {
+                "text": "Swiss markets",
+                "candidate_type": "concept",
+                "evidence": "targeting the EFTA and Swiss markets."
+            }
+        ]
+    },
+    {
+        "chunk_id": "ee2c6cb9ae2ebded50cd1000ff5181f6deccd7658d97d5e046727b9effda50e8",
+        "heading": "Trade in goods",
+        "candidates": [
+            {
+                "text": "agreement",
+                "candidate_type": "concept",
+                "evidence": "the agreement"
+            },
+            {
+                "text": "Swiss exports",
+                "candidate_type": "concept",
+                "evidence": "all Swiss exports"
+            },
+            {
+                "text": "EFTA countries",
+                "candidate_type": "concept",
+                "evidence": "EFTA countries"
+            },
+            {
+                "text": "India",
+                "candidate_type": "concept",
+                "evidence": "India"
+            },
+            {
+                "text": "preferential tariff treatment",
+                "candidate_type": "concept",
+                "evidence": "preferential tariff treatment"
+            },
+            {
+                "text": "rules of origin",
+                "candidate_type": "concept",
+                "evidence": "the rules of origin"
+            },
+            {
+                "text": "Annex 2A",
+                "candidate_type": "concept",
+                "evidence": "Annex 2A"
+            },
+            {
+                "text": "preferential trade",
+                "candidate_type": "concept",
+                "evidence": "preferential trade"
+            },
+            {
+                "text": "customs duties",
+                "candidate_type": "concept",
+                "evidence": "customs duties"
+            },
+            {
+                "text": "customs duty concessions",
+                "candidate_type": "concept",
+                "evidence": "customs duty concessions"
+            },
+            {
+                "text": "preferential treatment of goods",
+                "candidate_type": "concept",
+                "evidence": "preferential treatment of goods"
+            },
+            {
+                "text": "proof of origin",
+                "candidate_type": "concept",
+                "evidence": "a proof of origin"
+            },
+            {
+                "text": "parties to the agreement",
+                "candidate_type": "concept",
+                "evidence": "the parties to the agreement"
+            },
+            {
+                "text": "origin criteria",
+                "candidate_type": "concept",
+                "evidence": "the origin criteria"
+            },
+            {
+                "text": "preferential origin of products",
+                "candidate_type": "concept",
+                "evidence": "preferential origin of products"
+            },
+            {
+                "text": "businesses",
+                "candidate_type": "concept",
+                "evidence": "businesses"
+            },
+            {
+                "text": "products",
+                "candidate_type": "concept",
+                "evidence": "a product"
+            },
+            {
+                "text": "customs duty",
+                "candidate_type": "concept",
+                "evidence": "customs duty"
+            },
+            {
+                "text": "10.1%",
+                "candidate_type": "metric",
+                "evidence": "10.1% of Swiss exports"
+            },
+            {
+                "text": "84.6%",
+                "candidate_type": "metric",
+                "evidence": "84.6% of all Swiss exports"
+            },
+            {
+                "text": "Switzerland",
+                "candidate_type": "location",
+                "evidence": "Swiss"
+            },
+            {
+                "text": "EFTA",
+                "candidate_type": "acronym",
+                "evidence": "EFTA countries"
+            }
+        ]
+    },
+    {
+        "chunk_id": "51212bdd8a3fefa8128678cc365ea51ffdda479a91221a1c8ab61ed1b95463ed",
+        "heading": "Trade in services",
+        "candidates": [
+            {
+                "text": "Swiss businesses",
+                "candidate_type": "entities",
+                "evidence": "The agreement offers several new opportunities for Swiss businesses"
+            },
+            {
+                "text": "service providers",
+                "candidate_type": "entities",
+                "evidence": "The agreement offers several new opportunities for Swiss businesses by ensuring enhanced market access for service providers"
+            },
+            {
+                "text": "financial service providers",
+                "candidate_type": "entities",
+                "evidence": "For financial service providers, TEPA facilitates the process for obtaining licenses to operate in the Indian market"
+            },
+            {
+                "text": "TEPA",
+                "candidate_type": "entities",
+                "evidence": "For financial service providers, TEPA facilitates the process for obtaining licenses to operate in the Indian market"
+            },
+            {
+                "text": "Indian market",
+                "candidate_type": "entities",
+                "evidence": "For financial service providers, TEPA facilitates the process for obtaining licenses to operate in the Indian market"
+            },
+            {
+                "text": "banking sector",
+                "candidate_type": "entities",
+                "evidence": "The limitation of foreign capital will be uplifted in the banking sector from 51% to 74%"
+            },
+            {
+                "text": "foreign capital",
+                "candidate_type": "entities",
+                "evidence": "The limitation of foreign capital will be uplifted in the banking sector from 51% to 74%"
+            },
+            {
+                "text": "Swiss machinery industry",
+                "candidate_type": "entities",
+                "evidence": "Besides a strengthened framework in the financial services sector, benefits for Swiss machinery industry might arise"
+            },
+            {
+                "text": "personnel",
+                "candidate_type": "entities",
+                "evidence": "Besides a strengthened framework in the financial services sector, benefits for Swiss machinery industry might arise as personnel for the installation and maintenance of machinery will be allowed to reside in India for up to 90 days"
+            },
+            {
+                "text": "machinery",
+                "candidate_type": "entities",
+                "evidence": "Besides a strengthened framework in the financial services sector, benefits for Swiss machinery industry might arise as personnel for the installation and maintenance of machinery will be allowed to reside in India for up to 90 days"
+            },
+            {
+                "text": "installation and maintenance of machinery",
+                "candidate_type": "entities",
+                "evidence": "Besides a strengthened framework in the financial services sector, benefits for Swiss machinery industry might arise as personnel for the installation and maintenance of machinery will be allowed to reside in India for up to 90 days"
+            },
+            {
+                "text": "India",
+                "candidate_type": "entities",
+                "evidence": "Besides a strengthened framework in the financial services sector, benefits for Swiss machinery industry might arise as personnel for the installation and maintenance of machinery will be allowed to reside in India for up to 90 days"
+            },
+            {
+                "text": "90 days",
+                "candidate_type": "entities",
+                "evidence": "Besides a strengthened framework in the financial services sector, benefits for Swiss machinery industry might arise as personnel for the installation and maintenance of machinery will be allowed to reside in India for up to 90 days"
+            },
+            {
+                "text": "agreement",
+                "candidate_type": "entities",
+                "evidence": "The agreement offers several new opportunities for Swiss businesses"
+            },
+            {
+                "text": "market access",
+                "candidate_type": "entities",
+                "evidence": "The agreement offers several new opportunities for Swiss businesses by ensuring enhanced market access for service providers"
+            },
+            {
+                "text": "licenses",
+                "candidate_type": "entities",
+                "evidence": "For financial service providers, TEPA facilitates the process for obtaining licenses to operate in the Indian market"
+            },
+            {
+                "text": "framework",
+                "candidate_type": "entities",
+                "evidence": "Besides a strengthened framework in the financial services sector, benefits for Swiss machinery industry might arise"
+            },
+            {
+                "text": "financial services sector",
+                "candidate_type": "entities",
+                "evidence": "Besides a strengthened framework in the financial services sector, benefits for Swiss machinery industry might arise"
+            }
+        ]
+    },
+    {
+        "chunk_id": "643cdafe502c93f0e03365c4070df03b5cc0ef3dc5a5938731e98b4d11d774ab",
+        "heading": "Intellectual property rights",
+        "candidates": [
+            {
+                "text": "TEPA",
+                "candidate_type": "agreement",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "TEPA",
+                "candidate_type": "treaty",
+                "evidence": "Moreover, the agreement contains provisions regarding the protection of test data, which is particularly important for pharma businesses."
+            },
+            {
+                "text": "TEPA",
+                "candidate_type": "treaty",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            },
+            {
+                "text": "patented Swiss products",
+                "candidate_type": "products",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "patent opposition and notification processes",
+                "candidate_type": "processes",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "protection of test data",
+                "candidate_type": "protection",
+                "evidence": "Moreover, the agreement contains provisions regarding the protection of test data, which is particularly important for pharma businesses."
+            },
+            {
+                "text": "pharma businesses",
+                "candidate_type": "businesses",
+                "evidence": "Moreover, the agreement contains provisions regarding the protection of test data, which is particularly important for pharma businesses."
+            },
+            {
+                "text": "trademark applications",
+                "candidate_type": "applications",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            },
+            {
+                "text": "industries",
+                "candidate_type": "industries",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            },
+            {
+                "text": "products origin",
+                "candidate_type": "origin",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            },
+            {
+                "text": "unique value proposition",
+                "candidate_type": "proposition",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            },
+            {
+                "text": "India",
+                "candidate_type": "location",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "Swiss products",
+                "candidate_type": "products",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "patented Swiss products",
+                "candidate_type": "products",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "patent opposition and notification processes",
+                "candidate_type": "processes",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "legal challenge",
+                "candidate_type": "challenge",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "last years",
+                "candidate_type": "time period",
+                "evidence": "TEPA explicitly prevents discrimination against patented Swiss products in India, overcoming a major legal challenge of the last years, and simplifying the patent opposition and notification processes."
+            },
+            {
+                "text": "pharma businesses",
+                "candidate_type": "businesses",
+                "evidence": "Moreover, the agreement contains provisions regarding the protection of test data, which is particularly important for pharma businesses."
+            },
+            {
+                "text": "test data",
+                "candidate_type": "data",
+                "evidence": "Moreover, the agreement contains provisions regarding the protection of test data, which is particularly important for pharma businesses."
+            },
+            {
+                "text": "trademark applications",
+                "candidate_type": "applications",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            },
+            {
+                "text": "industries",
+                "candidate_type": "industries",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            },
+            {
+                "text": "products origin",
+                "candidate_type": "origin",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            },
+            {
+                "text": "unique value proposition",
+                "candidate_type": "proposition",
+                "evidence": "Regarding trademark applications, TEPA contains clear regulations for protecting industries, in which a products origin is part of its unique value proposition."
+            }
+        ]
+    },
+    {
+        "chunk_id": "3f6d0581cff90c1a398ab41b4bd2d3439fe6c44f8aa209b9a6da8c9a42a7068d",
+        "heading": "Sustainable Development",
+        "candidates": [
+            {
+                "text": "sustainable development",
+                "candidate_type": "concept",
+                "evidence": "sustainable development"
+            },
+            {
+                "text": "regulations",
+                "candidate_type": "concepts",
+                "evidence": "extensive regulations"
+            },
+            {
+                "text": "fields",
+                "candidate_type": "concepts",
+                "evidence": "a variety of fields"
+            },
+            {
+                "text": "environmental laws",
+                "candidate_type": "concepts",
+                "evidence": "environmental and labor laws"
+            },
+            {
+                "text": "labor laws",
+                "candidate_type": "concepts",
+                "evidence": "environmental and labor laws"
+            },
+            {
+                "text": "commitment",
+                "candidate_type": "concepts",
+                "evidence": "demonstrating a commitment"
+            },
+            {
+                "text": "factors",
+                "candidate_type": "concepts",
+                "evidence": "integrate these factors"
+            },
+            {
+                "text": "trade relation",
+                "candidate_type": "concepts",
+                "evidence": "the trade relation"
+            },
+            {
+                "text": "opportunities",
+                "candidate_type": "concepts",
+                "evidence": "equal opportunities"
+            },
+            {
+                "text": "compliance",
+                "candidate_type": "concepts",
+                "evidence": "simplified compliance"
+            },
+            {
+                "text": "environmental agreements",
+                "candidate_type": "concepts",
+                "evidence": "environmental agreements"
+            },
+            {
+                "text": "economic operators",
+                "candidate_type": "concepts",
+                "evidence": "economic operators"
+            },
+            {
+                "text": "agreement",
+                "candidate_type": "concepts",
+                "evidence": "The agreement"
+            },
+            {
+                "text": "implementation",
+                "candidate_type": "concepts",
+                "evidence": "effective implementation"
+            },
+            {
+                "text": "promotion",
+                "candidate_type": "concepts",
+                "evidence": "promotion of"
+            },
+            {
+                "text": "environmental",
+                "candidate_type": "concepts",
+                "evidence": "environmental and labor laws"
+            },
+            {
+                "text": "labor",
+                "candidate_type": "concepts",
+                "evidence": "environmental and labor laws"
+            },
+            {
+                "text": "simplified",
+                "candidate_type": "concepts",
+                "evidence": "simplified compliance"
+            },
+            {
+                "text": "provisions",
+                "candidate_type": "concepts",
+                "evidence": "The provisions"
+            },
+            {
+                "text": "Sustainable Development",
+                "candidate_type": "heading",
+                "evidence": "Sustainable Development"
+            }
+        ]
+    },
+    {
+        "chunk_id": "4f39c1f6472114f7b9b893b8b8b63611e7d72aec812822aa3bd49c29f4036112",
+        "heading": "Our recommendations",
+        "candidates": [
+            {
+                "text": "TEPA",
+                "candidate_type": "concept",
+                "evidence": "TEPA"
+            },
+            {
+                "text": "Swiss companies",
+                "candidate_type": "entities",
+                "evidence": "Swiss companies"
+            },
+            {
+                "text": "Parliament",
+                "candidate_type": "entities",
+                "evidence": "Parliament"
+            },
+            {
+                "text": "Indian market",
+                "candidate_type": "entities",
+                "evidence": "Indian market"
+            },
+            {
+                "text": "EFTA states",
+                "candidate_type": "entities",
+                "evidence": "EFTA states"
+            },
+            {
+                "text": "Swiss business",
+                "candidate_type": "entities",
+                "evidence": "Swiss business"
+            },
+            {
+                "text": "EU based manufacturers",
+                "candidate_type": "entities",
+                "evidence": "EU based manufacturers"
+            },
+            {
+                "text": "opportunities",
+                "candidate_type": "concepts",
+                "evidence": "opportunities"
+            },
+            {
+                "text": "import tariffs",
+                "candidate_type": "concepts",
+                "evidence": "high import tariffs"
+            },
+            {
+                "text": "market",
+                "candidate_type": "concepts",
+                "evidence": "opening the market"
+            },
+            {
+                "text": "goods",
+                "candidate_type": "concepts",
+                "evidence": "goods originating"
+            },
+            {
+                "text": "competitive advantage",
+                "candidate_type": "concepts",
+                "evidence": "competitive advantage"
+            },
+            {
+                "text": "recommendations",
+                "candidate_type": "concepts",
+                "evidence": "recommend to"
+            },
+            {
+                "text": "process",
+                "candidate_type": "concepts",
+                "evidence": "pending ratification process"
+            }
+        ]
+    },
+    {
+        "chunk_id": "a1d93644fcf409f9fd1054035206cbe694812d05f30847cdc3d98e28d1821217",
+        "heading": "Summary",
+        "candidates": [
+            {
+                "text": "TEPA agreement",
+                "candidate_type": "concept",
+                "evidence": "The completion of the TEPA agreement"
+            },
+            {
+                "text": "TEPA",
+                "candidate_type": "concept",
+                "evidence": "The completion of the TEPA agreement"
+            },
+            {
+                "text": "trade relations",
+                "candidate_type": "concept",
+                "evidence": "greatly enhance trade relations"
+            },
+            {
+                "text": "economic connections",
+                "candidate_type": "concept",
+                "evidence": "encourage stronger economic connections"
+            },
+            {
+                "text": "sustainable development",
+                "candidate_type": "concept",
+                "evidence": "upholding commitments to sustainable development"
+            },
+            {
+                "text": "ecological responsibility",
+                "candidate_type": "concept",
+                "evidence": "ecological responsibility"
+            },
+            {
+                "text": "Swiss companies",
+                "candidate_type": "entities",
+                "evidence": "For Swiss companies"
+            },
+            {
+                "text": "European Union",
+                "candidate_type": "entities",
+                "evidence": "those from the European Union"
+            },
+            {
+                "text": "Ashish Sinha",
+                "candidate_type": "people",
+                "evidence": "contact our Global Trade team members Ashish Sinha"
+            },
+            {
+                "text": "Jonathan Baumeler",
+                "candidate_type": "people",
+                "evidence": "contact our Global Trade team members Ashish Sinha or Jonathan Baumeler"
+            },
+            {
+                "text": "Global Trade team",
+                "candidate_type": "entities",
+                "evidence": "contact our Global Trade team members"
+            },
+            {
+                "text": "business operations",
+                "candidate_type": "concept",
+                "evidence": "how TEPA might specifically influence your business operations"
+            },
+            {
+                "text": "TEPA",
+                "candidate_type": "concept",
+                "evidence": "how TEPA might specifically influence your business operations"
+            }
+        ]
+    },
+    {
+        "chunk_id": "534dc083560ff072c922c84cf4975f49e8bf6d2ba93ece1b2eb599b94ce5bbbb",
+        "heading": "",
+        "candidates": [
+            {
+                "text": "India",
+                "candidate_type": "location",
+                "evidence": "🇮🇳"
+            },
+            {
+                "text": "India-EFTA Trade & Economic Partnership Agreement",
+                "candidate_type": "agreement",
+                "evidence": "India-EFTA Trade & Economic Partnership Agreement (TEPA)"
+            },
+            {
+                "text": "EFTA",
+                "candidate_type": "organization",
+                "evidence": "India-EFTA Trade & Economic Partnership Agreement (TEPA)"
+            },
+            {
+                "text": "India's inclusive growth",
+                "candidate_type": "concept",
+                "evidence": "a landmark pact to boost 🇮🇳's inclusive growth"
+            },
+            {
+                "text": "$100bn FDI",
+                "candidate_type": "amount",
+                "evidence": "*$100bn FDI expected over 15 years"
+            },
+            {
+                "text": "15 years",
+                "candidate_type": "timeframe",
+                "evidence": "*$100bn FDI expected over 15 years"
+            },
+            {
+                "text": "Direct jobs for Indians",
+                "candidate_type": "concept",
+                "evidence": "*Direct jobs for Indians"
+            },
+            {
+                "text": "goods & services",
+                "candidate_type": "concept",
+                "evidence": "Beyond goods & services - a future-ready framework"
+            },
+            {
+                "text": "future-ready framework",
+                "candidate_type": "concept",
+                "evidence": "Beyond goods & services - a future-ready framework"
+            },
+            {
+                "text": "Ministry of External Affairs",
+                "candidate_type": "organization",
+                "evidence": "Ministry of External Affairs, Government of India"
+            },
+            {
+                "text": "Government of India",
+                "candidate_type": "organization",
+                "evidence": "Ministry of External Affairs, Government of India"
+            },
+            {
+                "text": "Press Information Bureau",
+                "candidate_type": "organization",
+                "evidence": "Press Information Bureau - PIB, Government of India"
+            },
+            {
+                "text": "PIB",
+                "candidate_type": "organization",
+                "evidence": "Press Information Bureau - PIB, Government of India"
+            },
+            {
+                "text": "Bahrain EDB",
+                "candidate_type": "organization",
+                "evidence": "Bahrain EDB"
+            },
+            {
+                "text": "01 Oct '25",
+                "candidate_type": "date",
+                "evidence": "came into force on 01 Oct '25"
+            },
+            {
+                "text": "🇮🇸",
+                "candidate_type": "location",
+                "evidence": "🇮🇸🇳🇴🇨🇭🇱🇮"
+            },
+            {
+                "text": "🇳🇴",
+                "candidate_type": "location",
+                "evidence": "🇮🇸🇳🇴🇨🇭🇱🇮"
+            },
+            {
+                "text": "🇨🇭",
+                "candidate_type": "location",
+                "evidence": "🇮🇸🇳🇴🇨🇭🇱🇮"
+            },
+            {
+                "text": "🇱🇮",
+                "candidate_type": "location",
+                "evidence": "🇮🇸🇳🇴🇨🇭🇱🇮"
+            }
+        ]
+    }
+]
+

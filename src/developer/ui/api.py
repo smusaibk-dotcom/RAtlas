@@ -9,7 +9,12 @@ from main import (
     search_query_generation_service,
     search_service,
 )
+from application.agents.candidate_discovery_agent import CandidateDiscoveryAgent
 
+from infrastructure.parsers.page_validator import InvalidPageException
+
+
+candidate_discovery_agent = CandidateDiscoveryAgent()
 
 async def parse_all(resources):
     semaphore = asyncio.Semaphore(4)
@@ -27,6 +32,12 @@ async def parse_all(resources):
 
                 return chunks
 
+            except InvalidPageException as e:
+                print(f"FAILED: {resource.title}")
+                print(e)
+
+                return e
+
             except Exception as e:
                 print(f"FAILED: {resource.title}")
                 print(e)
@@ -42,6 +53,7 @@ async def parse_all(resources):
 
     chunks = []
     failed = []
+    chunk_stats = {}
 
     for resource, result in zip(resources, results):
         if isinstance(result, Exception):
@@ -54,9 +66,10 @@ async def parse_all(resources):
             )
 
         else:
+            chunk_stats[str(resource.id)] = len(result)
             chunks.extend(result)
 
-    return chunks, failed
+    return chunks, failed, chunk_stats
 
 
 def search(
@@ -134,16 +147,46 @@ def search(
         resources.extend(result.resources)
 
     # Parse only the top "n" search results
-    max_n_resorcues = 12
+    max_n_resorcues = 8
     resources = resources[:max_n_resorcues]
 
     print(f"Parsing {len(resources)} resources...")
 
-    chunks, failed_resources = asyncio.run(parse_all(resources))
+    chunks, failed_resources, chunk_stats = asyncio.run(parse_all(resources))
 
     print("=" * 80)
     print("TOTAL PARSED CHUNKS:", len(chunks))
     print("=" * 80)
+
+    import json
+    from pathlib import Path
+
+    candidate_list = []
+
+    fixture_path = Path(
+        f"tests/fixtures/chunks/{state.conversation_id}.json"
+    )
+
+    fixture_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with open(
+        fixture_path,
+        "w",
+        encoding="utf-8",
+    ) as f:
+        json.dump(
+            [chunk.model_dump() for chunk in chunks],
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+    #for chunk in chunks:
+        #response = candidate_discovery_agent.run(chunk)
+        #candidate_list.extend(response.candidates)
 
     return {
         "conversation_id": state.conversation_id,
@@ -151,6 +194,10 @@ def search(
         "understanding": understanding,
         "search_queries": search_queries,
         "search_results": search_results,
+        "parsed_resources": resources,
         "parsed_chunks": chunks,
         "failed_resources": failed_resources,
+        "chunk_stats": chunk_stats,
+        "chunks_file": str(fixture_path),
+        #"candidates": candidate_list
     }

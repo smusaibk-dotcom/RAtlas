@@ -1,0 +1,15 @@
+{
+    "original_query": "India EFTA TEPA AGREEMENT",
+    "refined_query": "India-EFTA Trade and Economic Partnership Agreement",
+    "intent": "RESEARCH",
+    "research_domain": "Biology & Medicine",
+    "confidence_score": 0.0,
+    "status": "NEED_CLARIFICATION",
+    "clarification_message": "Could you please clarify which agreement you are referring to? There are multiple agreements between India and EFTA.",
+    "clarification_options": [
+        "India-EFTA Trade and Economic Partnership Agreement",
+        "India-EFTA Free Trade Agreement",
+        "India-EFTA Bilateral Trade Agreement"
+    ],
+    "ambiguity_reason": "Multiple agreements between India and EFTA exist, making it unclear which one is being referred to."
+}

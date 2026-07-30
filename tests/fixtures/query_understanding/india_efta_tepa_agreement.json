@@ -1,0 +1,15 @@
+{
+    "original_query": "India EFTA TEPA AGREEMENT",
+    "refined_query": "India EFTA TEPA AGREEMENT",
+    "intent": "RESEARCH",
+    "research_domain": "History",
+    "confidence_score": 0.0,
+    "status": "NEED_CLARIFICATION",
+    "clarification_message": "Could you please clarify which specific agreement you are referring to?",
+    "clarification_options": [
+        "India-EFTA Free Trade Agreement",
+        "India-EFTA Trade and Economic Partnership Agreement",
+        "India-EFTA Comprehensive Economic Partnership Agreement"
+    ],
+    "ambiguity_reason": "Multiple agreements between India and EFTA are possible, and the user could reasonably mean different things."
+}

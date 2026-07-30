@@ -3,12 +3,13 @@ import hashlib
 from application.dto.chunk import Chunk
 from infrastructure.parsers.document_chunker import DocumentChunker
 from infrastructure.parsers.text_cleaner import TextCleaner
-
+from application.chunk_validation.chunk_validator import ChunkValidator
 
 class ChunkWrapper:
     def __init__(self):
         self._chunker = DocumentChunker()
         self._cleaner = TextCleaner()
+        self._validator = ChunkValidator()
 
     def wrap(
         self,
@@ -117,6 +118,11 @@ class ChunkWrapper:
             text = self._cleaner.clean(
                 text,
             )
+            
+            result = self._validator.validate(text)
+
+            if not result.valid:
+                continue
 
             content["text"] = text
 
@@ -126,8 +132,7 @@ class ChunkWrapper:
                         (resource.url + str(chunk_index) + text).encode("utf-8")
                     ).hexdigest(),
                     resource_type=resource_type,
-                    resource_id=resource.id
-                    or hashlib.sha256(resource.url.encode("utf-8")).hexdigest(),
+                    resource_id=resource.id,
                     chunk_index=chunk_index,
                     content=content,
                     metadata={},

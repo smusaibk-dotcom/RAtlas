@@ -1,0 +1,34 @@
+{
+    "queries": [
+        {
+            "query": "India EFTA TEPA AGREEMENT historical context",
+            "reason": "To understand the historical background of the agreement.",
+            "priority": 1,
+            "max_results": 10
+        },
+        {
+            "query": "India EFTA TEPA AGREEMENT economic implications",
+            "reason": "To analyze the economic effects of the agreement on India.",
+            "priority": 2,
+            "max_results": 20
+        },
+        {
+            "query": "India EFTA TEPA AGREEMENT political significance",
+            "reason": "To examine the political importance of the agreement in the context of India-EFTA relations.",
+            "priority": 3,
+            "max_results": 30
+        },
+        {
+            "query": "India EFTA TEPA AGREEMENT comparison with other agreements",
+            "reason": "To compare the India-EFTA TEPA agreement with other similar agreements.",
+            "priority": 4,
+            "max_results": 40
+        },
+        {
+            "query": "India EFTA TEPA AGREEMENT future prospects",
+            "reason": "To discuss the potential future developments and prospects of the agreement.",
+            "priority": 5,
+            "max_results": 50
+        }
+    ]
+}

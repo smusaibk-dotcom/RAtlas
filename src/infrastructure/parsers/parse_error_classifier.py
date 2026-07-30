@@ -1,19 +1,12 @@
-from enum import Enum
-
-
-class ParseFailureType(str, Enum):
-    HTTP_403 = "http_403"
-    HTTP_404 = "http_404"
-    TIMEOUT = "timeout"
-    CLOUDFLARE = "cloudflare"
-    NETWORK = "network"
-    PARSER = "parser"
-    UNKNOWN = "unknown"
-
+from infrastructure.parsers.page_validator import InvalidPageException
+from infrastructure.parsers.parse_failures import ParseFailureType
 
 class ParseErrorClassifier:
     @staticmethod
     def classify(exc: Exception) -> ParseFailureType:
+        if isinstance(exc,InvalidPageException):
+            return exc.reason
+
         text = str(exc).lower()
 
         if "403" in text:
@@ -21,9 +14,6 @@ class ParseErrorClassifier:
 
         if "404" in text:
             return ParseFailureType.HTTP_404
-
-        if "cloudflare" in text:
-            return ParseFailureType.CLOUDFLARE
 
         if "timeout" in text:
             return ParseFailureType.TIMEOUT

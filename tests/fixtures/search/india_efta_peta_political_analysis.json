@@ -1,0 +1,238 @@
+{
+    "search_query": {
+        "query": "India EFTA PETA political analysis",
+        "reason": "Political analysis of India-EFTA PETA is vital for research.",
+        "priority": 3,
+        "max_results": 30
+    },
+    "requested_results": 30,
+    "retrieved_results": 25,
+    "response_time": 3.59,
+    "resources": [
+        {
+            "id": "https://chintan.indiafoundation.in/articles/indias-strategic-leap-a-detailed-critique-and-analysis-of-the-efta-trade-pact",
+            "title": "India’s Strategic Leap: A Detailed Critique and Analysis of ...",
+            "url": "https://chintan.indiafoundation.in/articles/indias-strategic-leap-a-detailed-critique-and-analysis-of-the-efta-trade-pact",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5663309,
+            "metadata": {}
+        },
+        {
+            "id": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/treaties-with-investment-provisions/5123/efta---india-tepa-2024-",
+            "title": "EFTA - India TEPA (2024) | International Investment Agreements Navigator | UNCTAD Investment Policy Hub",
+            "url": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/treaties-with-investment-provisions/5123/efta---india-tepa-2024-",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5090084,
+            "metadata": {}
+        },
+        {
+            "id": "https://suryatara.com/peta-india-full-form",
+            "title": "PETA India Full Form: Purpose, Work, and Impact on Animal Rights in India",
+            "url": "https://suryatara.com/peta-india-full-form",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.35046637,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-trade-and-economic-partnership-agreement",
+            "title": "India-EFTA Trade and Economic Partnership Agreement",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-trade-and-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.34125364,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-efta-deal-a-new-chapter-in-trade-agreements",
+            "title": "India-EFTA Deal: A New Chapter in Trade Agreements",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-efta-deal-a-new-chapter-in-trade-agreements",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3382962,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3339163,
+            "metadata": {}
+        },
+        {
+            "id": "https://foreignpolicy.com/2024/03/13/india-efta-free-trade-deal-protectionism",
+            "title": "Why India Inked a Free Trade Deal With EFTA",
+            "url": "https://foreignpolicy.com/2024/03/13/india-efta-free-trade-deal-protectionism",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.33160707,
+            "metadata": {}
+        },
+        {
+            "id": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "title": "EFTA - India Trade and Economic Partnership Agreement (TEPA) (2024) - Electronic Database of Investment Treaties (EDIT)",
+            "url": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.32408613,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-free-trade-agreement",
+            "title": "India-EFTA Free Trade Agreement",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-free-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.31132266,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/People_for_the_Ethical_Treatment_of_Animals",
+            "title": "People for the Ethical Treatment of Animals",
+            "url": "https://en.wikipedia.org/wiki/People_for_the_Ethical_Treatment_of_Animals",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.29824144,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177724&reg=3&lang=2",
+            "title": "Press Release Page | Press Information Bureau",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177724&reg=3&lang=2",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.29311654,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-trade-deal",
+            "title": "India-EFTA Trade Deal",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-trade-deal",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.28816375,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "title": "EFTA-India Trade and Economic Partnership Agreement enters ...",
+            "url": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.2844075,
+            "metadata": {}
+        },
+        {
+            "id": "https://medium.com/@gsaidheeraj/the-india-efta-trade-agreement-sectors-that-see-exponential-growth-in-next-15-years-62aa05cb33ee",
+            "title": "The India-EFTA Trade Agreement: Sectors that see Exponential Growth in next 15 years. | by Sai Dheeraj Gummadi | Medium",
+            "url": "https://medium.com/@gsaidheeraj/the-india-efta-trade-agreement-sectors-that-see-exponential-growth-in-next-15-years-62aa05cb33ee",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.26705545,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "title": "India – EFTA Economic Partnership Agreement | EY - Switzerland",
+            "url": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.26517627,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pmfias.com/india-efta-tepa",
+            "title": "India-EFTA Trade & Economic Partnership Agreement (TEPA)",
+            "url": "https://www.pmfias.com/india-efta-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.24817456,
+            "metadata": {}
+        },
+        {
+            "id": "https://bureaucracyindia.in/2026/06/23/india-efta-tepa-trade-agreement-india-europe",
+            "title": "India-EFTA TEPA: How the India-EFTA Trade Agreement is ...",
+            "url": "https://bureaucracyindia.in/2026/06/23/india-efta-tepa-trade-agreement-india-europe",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.24796963,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.iiss.org/online-analysis/online-analysis/2026/01/indias-renewed-focus-on-free-trade-agreements",
+            "title": "India’s renewed focus on free-trade agreements",
+            "url": "https://www.iiss.org/online-analysis/online-analysis/2026/01/indias-renewed-focus-on-free-trade-agreements",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.24507189,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_India",
+            "title": "Free trade agreements of India - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_India",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.22436157,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.tandfonline.com/doi/full/10.1080/09700161.2024.2404607",
+            "title": "India- EFTA Free Trade Agreement: Template for Trade ...",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/09700161.2024.2404607",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.22265828,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.policycircle.org/opinion/fta-india-efta-agreement-model",
+            "title": "Rethinking FTAs: The India-EFTA model links trade treaties to ...",
+            "url": "https://www.policycircle.org/opinion/fta-india-efta-agreement-model",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.20924373,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India - European Free Trade Association (EFTA)",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.20524879,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/hindi/daily-updates/daily-news-analysis/india-efta-trade-deal",
+            "title": "भारत-EFTA व्यापार समझौता",
+            "url": "https://www.drishtiias.com/hindi/daily-updates/daily-news-analysis/india-efta-trade-deal",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.19780095,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.insightsonindia.com/2024/05/13/editorial-analysis-investment-lessons-from-the-india-efta-trade-deal",
+            "title": "UPSC EDITORIAL ANALYSIS : Investment lessons from the India-EFTA trade deal - INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation",
+            "url": "https://www.insightsonindia.com/2024/05/13/editorial-analysis-investment-lessons-from-the-india-efta-trade-deal",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.19241826,
+            "metadata": {}
+        },
+        {
+            "id": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-seeks-early-resolution-of-issues-related-to-implementation-of-efta-trade-pact/articleshow/130964728.cms?from=mdr",
+            "title": "India seeks early resolution of issues related to implementation of EFTA trade pact - The Economic Times",
+            "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-seeks-early-resolution-of-issues-related-to-implementation-of-efta-trade-pact/articleshow/130964728.cms?from=mdr",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.13544947,
+            "metadata": {}
+        }
+    ]
+}

@@ -1,0 +1,220 @@
+{
+    "search_query": {
+        "query": "India-EFTA Trade and Economic Partnership Agreement impact on Indian economy",
+        "reason": "To assess the potential effects of the agreement on India's economy.",
+        "priority": 4,
+        "max_results": 25
+    },
+    "requested_results": 25,
+    "retrieved_results": 23,
+    "response_time": 1.66,
+    "resources": [
+        {
+            "id": "https://www.investindia.gov.in/blogs/impact-india-efta-trade-and-economic-partnership-agreement",
+            "title": "The Impact of India-EFTA Trade and Economic Partnership ...",
+            "url": "https://www.investindia.gov.in/blogs/impact-india-efta-trade-and-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.9049283,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.89501935,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "title": "EFTA-India Trade and Economic Partnership Agreement enters ...",
+            "url": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8808076,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "title": "India – EFTA Economic Partnership Agreement",
+            "url": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.878825,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.tribuneindia.com/news/business/india-efta-trade-and-economic-partnership-agreement-brings-capital-technology-and-jobs-for-india-piyush-goyal/amp",
+            "title": "India-EFTA 'Trade and Economic Partnership Agreement' brings capital, technology and jobs for India: Piyush Goyal - The Tribune",
+            "url": "https://www.tribuneindia.com/news/business/india-efta-trade-and-economic-partnership-agreement-brings-capital-technology-and-jobs-for-india-piyush-goyal/amp",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8783249,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.orfonline.org/expert-speak/the-india-efta-trade-and-economic-partnership-agreement-a-timely-template",
+            "title": "The India-EFTA Trade and Economic Partnership Agreement: A timely template",
+            "url": "https://www.orfonline.org/expert-speak/the-india-efta-trade-and-economic-partnership-agreement-a-timely-template",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8708723,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173138",
+            "title": "India-European Free Trade Association Trade and Economic Partnership Agreement (TEPA) to come into effect on 01 October 2025",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173138",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.86080295,
+            "metadata": {}
+        },
+        {
+            "id": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "title": "India-EFTA Trade Pact: Boosting $100 Billion Investment ...",
+            "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.83678174,
+            "metadata": {}
+        },
+        {
+            "id": "https://economictimes.indiatimes.com/opinion/et-commentary/indiaefta-tepa-more-than-just-trade/articleshow/129323116.cms",
+            "title": "India–EFTA TEPA: More than just trade - The Economic Times",
+            "url": "https://economictimes.indiatimes.com/opinion/et-commentary/indiaefta-tepa-more-than-just-trade/articleshow/129323116.cms",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8364614,
+            "metadata": {}
+        },
+        {
+            "id": "https://m.economictimes.com/news/economy/foreign-trade/indiaefta-tepa-explained-growth-investment-and-affordable-european-products-for-indian-consumers/amp_articleshow/124335934.cms",
+            "title": "India–EFTA TEPA explained: Growth, investment, and affordable European products for Indian consumers - The Economic Times",
+            "url": "https://m.economictimes.com/news/economy/foreign-trade/indiaefta-tepa-explained-growth-investment-and-affordable-european-products-for-indian-consumers/amp_articleshow/124335934.cms",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.83452857,
+            "metadata": {}
+        },
+        {
+            "id": "https://m.economictimes.com/news/economy/foreign-trade/india-efta-trade-pact-marks-two-years/amp_articleshow/129415317.cms",
+            "title": "India-EFTA trade pact marks two years - The Economic Times",
+            "url": "https://m.economictimes.com/news/economy/foreign-trade/india-efta-trade-pact-marks-two-years/amp_articleshow/129415317.cms",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.83290404,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-trade-and-economic-partnership-agreement",
+            "title": "India-EFTA Trade and Economic Partnership Agreement",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-trade-and-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.83093774,
+            "metadata": {}
+        },
+        {
+            "id": "https://ddnews.gov.in/en/how-indias-trade-deal-with-efta-is-unlocking-investment-jobs-and-global-market-access",
+            "title": "How India’s trade deal with EFTA is unlocking investment, jobs, and global market access",
+            "url": "https://ddnews.gov.in/en/how-indias-trade-deal-with-efta-is-unlocking-investment-jobs-and-global-market-access",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7982658,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.newsonair.gov.in/india-efta-trade-and-economic-partnership-agreement-comes-into-force",
+            "title": "India-EFTA Trade and Economic Partnership Agreement ...",
+            "url": "https://www.newsonair.gov.in/india-efta-trade-and-economic-partnership-agreement-comes-into-force",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.79080546,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.fortuneindia.com/amp/story/india/india-efta-trade-economic-partnership-agreement-to-come-into-force-on-oct-1-experts-say-reforms-can-help-fulfill-100-billion-fdi-dream/127167",
+            "title": "India-EFTA Trade and Economic Partnership Agreement to come into force on Oct 1; experts say reforms can help fulfil $100 billion FDI dream",
+            "url": "https://www.fortuneindia.com/amp/story/india/india-efta-trade-economic-partnership-agreement-to-come-into-force-on-oct-1-experts-say-reforms-can-help-fulfill-100-billion-fdi-dream/127167",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7845341,
+            "metadata": {}
+        },
+        {
+            "id": "https://ciiblog.in/how-will-the-india-efta-trade-and-economic-partnership-agreement-play-out",
+            "title": "How Will The India–EFTA Trade and Economic Partnership Agreement Play Out - CII Blog",
+            "url": "https://ciiblog.in/how-will-the-india-efta-trade-and-economic-partnership-agreement-play-out",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7680558,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013169",
+            "title": "Press Release:Press Information Bureau",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013169",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.73459625,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.sanskritiias.com/current-affairs/india-efta-trade-agreement-a-new-economic-chapter",
+            "title": "India-EFTA Trade Agreement: A New Economic Chapter - Sanskriti IAS",
+            "url": "https://www.sanskritiias.com/current-affairs/india-efta-trade-agreement-a-new-economic-chapter",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6934942,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/sites/default/files/documents/legal-texts/free-trade-relations/india/1.+Main+Agreement.pdf",
+            "title": "1 TRADE AND ECONOMIC PARTNERSHIP AGREEMENT BETWEEN THE EFTA STATES AND",
+            "url": "https://www.efta.int/sites/default/files/documents/legal-texts/free-trade-relations/india/1.+Main+Agreement.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6469293,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India - European Free Trade Association (EFTA)",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.62934244,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pmfias.com/india-efta-tepa",
+            "title": "India-EFTA Trade & Economic Partnership Agreement (TEPA)",
+            "url": "https://www.pmfias.com/india-efta-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6083387,
+            "metadata": {}
+        },
+        {
+            "id": "https://newsonair.gov.in/india-efta-trade-and-economic-partnership-agreement-tepa-comes-into-effect-today",
+            "title": "India | Akashvani News",
+            "url": "https://newsonair.gov.in/india-efta-trade-and-economic-partnership-agreement-tepa-comes-into-effect-today",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.55998856,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.edelmanglobaladvisory.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "Public & Government Affairs | Edelman",
+            "url": "https://www.edelmanglobaladvisory.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.037796497,
+            "metadata": {}
+        }
+    ]
+}

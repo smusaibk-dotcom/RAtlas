@@ -2,6 +2,7 @@ import os
 import tempfile
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+import trafilatura
 
 import httpx
 from llama_index.readers.github import GithubClient, GithubRepositoryReader
@@ -11,6 +12,7 @@ from playwright.async_api import (
     async_playwright,
 )
 from youtube_transcript_api import YouTubeTranscriptApi
+from crawl4ai import AsyncWebCrawler
 
 
 class BrowserAgent:
@@ -402,26 +404,28 @@ class BrowserAgent:
         self,
         url: str,
     ) -> str:
-        launch_result = await self.launch()
+        async with AsyncWebCrawler() as crawler:
+            result = await crawler.arun(
+                url=url,
+            )
 
-        if not launch_result["success"]:
-            raise RuntimeError(launch_result["error"])
+        if not result.success:
+            raise RuntimeError(
+                f"Failed to fetch HTML: {url}"
+            )
 
-        try:
-            goto_result = await self.goto(url)
+        clean_html = trafilatura.extract(
+            result.cleaned_html,
+            output_format="html",
+            include_links=True,
+        )
 
-            if not goto_result["success"]:
-                raise RuntimeError(goto_result["error"])
+        if clean_html is None:
+            raise RuntimeError(
+                f"Trafilatura failed to extract main content: {url}"
+            )
 
-            await self.wait(3000)
-
-            html = (await self.current_html())["content"]
-
-            return html
-
-        finally:
-            await self.cleanup()
-
+        return clean_html
     async def fetch_github_documents(
         self,
         owner: str,

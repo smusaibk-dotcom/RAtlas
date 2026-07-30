@@ -1,0 +1,175 @@
+{
+    "search_query": {
+        "query": "India EFTA PETA economic implications",
+        "reason": "Economic implications of India-EFTA PETA are essential for research.",
+        "priority": 2,
+        "max_results": 20
+    },
+    "requested_results": 20,
+    "retrieved_results": 18,
+    "response_time": 1.05,
+    "resources": [
+        {
+            "id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177724",
+            "title": "Press Release Page | Press Information Bureau",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177724",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.71496695,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.investindia.gov.in/blogs/impact-india-efta-trade-and-economic-partnership-agreement",
+            "title": "The Impact of India-EFTA Trade and Economic Partnership Agreement",
+            "url": "https://www.investindia.gov.in/blogs/impact-india-efta-trade-and-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.71377134,
+            "metadata": {}
+        },
+        {
+            "id": "https://saspartners.com/navigating-the-india-efta-free-trade-agreement",
+            "title": "Navigating the India-EFTA Free Trade Agreement: Implications and Strategies for Business Success - saspartners",
+            "url": "https://saspartners.com/navigating-the-india-efta-free-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6989468,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "title": "India – EFTA Economic Partnership Agreement | EY - Switzerland",
+            "url": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.68697983,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.scribd.com/document/836014964/Group-7-TEPA-India-EPTA",
+            "title": "India-EFTA Trade Partnership Insights | PDF | Trade | Economies",
+            "url": "https://www.scribd.com/document/836014964/Group-7-TEPA-India-EPTA",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6757865,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.astrum.in/india-efta-tepa-impact-of-free-trade-agreements-fta-astrum",
+            "title": "India-EFTA TEPA: Impact of Free Trade Agreements (FTA) | Astrum | Astrum",
+            "url": "https://www.astrum.in/india-efta-tepa-impact-of-free-trade-agreements-fta-astrum",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6721816,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6490677,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "title": "A Step into the Right Direction: The India-EFTA Trade Agreement",
+            "url": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.63125396,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.edelman.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "A Primer on the India-EFTA Trade and Economic Partnership Agreement (TEPA) | Edelman",
+            "url": "https://www.edelman.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.60610276,
+            "metadata": {}
+        },
+        {
+            "id": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "title": "EFTA - India Trade and Economic Partnership Agreement (TEPA) (2024) - Electronic Database of Investment Treaties (EDIT)",
+            "url": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5973971,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.youtube.com/watch?v=I4a_vLjv_sE",
+            "title": "India-EFTA Trade & Economic Partnership Agreement To Take Effect From Oct 1, 2025 | News9",
+            "url": "https://www.youtube.com/watch?v=I4a_vLjv_sE",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5968332,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.southcentre.int/tag/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "The South Centre | India-EFTA Trade and Economic Partnership Agreement (TEPA)",
+            "url": "https://www.southcentre.int/tag/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5832277,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.linkedin.com/pulse/indiaefta-tepa-defining-partnership-indias-economic-future-jyoti-vij-rdjtc",
+            "title": "India–EFTA TEPA: A Defining Partnership for India's Economic ...",
+            "url": "https://www.linkedin.com/pulse/indiaefta-tepa-defining-partnership-indias-economic-future-jyoti-vij-rdjtc",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.52232456,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "title": "EFTA-India Trade and Economic Partnership Agreement enters into ...",
+            "url": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5122296,
+            "metadata": {}
+        },
+        {
+            "id": "https://epces.in/uploads/circular/mailchi_mp%20(1)202510291761720450.pdf",
+            "title": "India–EFTA Trade and Economic Partnership Agreement (TEPA)",
+            "url": "https://epces.in/uploads/circular/mailchi_mp%20(1)202510291761720450.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.50769037,
+            "metadata": {}
+        },
+        {
+            "id": "https://legalblogs.wolterskluwer.com/arbitration-blog/the-investment-chapter-in-the-india-european-free-trade-association-free-trade-agreement-much-ado-about-something",
+            "title": "The Investment Chapter in the India-European Free Trade Association Free Trade Agreement: Much Ado about “Something\" | Kluwer Arbitration Blog",
+            "url": "https://legalblogs.wolterskluwer.com/arbitration-blog/the-investment-chapter-in-the-india-european-free-trade-association-free-trade-agreement-much-ado-about-something",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.35851082,
+            "metadata": {}
+        },
+        {
+            "id": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/bit/5123/efta---india-tepa-2024-",
+            "title": "EFTA - India TEPA (2024) | International Investment Agreements Navigator | UNCTAD Investment Policy Hub",
+            "url": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/bit/5123/efta---india-tepa-2024-",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.30912846,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.youtube.com/watch?v=ByX5xa-eG48",
+            "title": "India’s $100 Billion EFTA Pact Takes Effect NOW: Can It Offset Trump’s Tariff Chaos?",
+            "url": "https://www.youtube.com/watch?v=ByX5xa-eG48",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.26186073,
+            "metadata": {}
+        }
+    ]
+}

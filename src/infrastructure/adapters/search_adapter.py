@@ -46,6 +46,7 @@ class SearchAdapter(SearchPort):
 
         resources = [
             ResourceReference(
+                id=result["url"],
                 title=result["title"],
                 url=result["url"],
                 provider="tavily",

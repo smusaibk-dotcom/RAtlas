@@ -1,0 +1,15 @@
+{
+    "original_query": "india efta peta",
+    "refined_query": "india efta peta agreement",
+    "intent": "RESEARCH",
+    "research_domain": "Biology & Medicine",
+    "confidence_score": 0.0,
+    "status": "NEED_CLARIFICATION",
+    "clarification_message": "Could you please clarify which EFTA country you are referring to? Are you looking for information on the EFTA-India PTA or the EFTA-India FTA?",
+    "clarification_options": [
+        "EFTA-India PTA",
+        "EFTA-India FTA",
+        "Other (please specify)"
+    ],
+    "ambiguity_reason": "Multiple EFTA countries have trade agreements with India, and the user's query is too broad to determine the specific agreement being referred to."
+}

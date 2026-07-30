@@ -1,0 +1,247 @@
+{
+    "search_query": {
+        "query": "India EFTA TEPA AGREEMENT political significance",
+        "reason": "To examine the political importance of the agreement in the context of India-EFTA relations.",
+        "priority": 3,
+        "max_results": 30
+    },
+    "requested_results": 30,
+    "retrieved_results": 26,
+    "response_time": 2.51,
+    "resources": [
+        {
+            "id": "https://www.insightsonindia.com/2025/02/12/the-india-efta-trade-and-economic-partnership-agreement-tepa-is-more-than-a-trade-deal-it-is-a-step-toward-a-long-term-strategic-partnership-analyze-in-the-context-of-india",
+            "title": "“The India-EFTA Trade and Economic Partnership Agreement (TEPA) is more than a trade deal; it is a step toward a long-term strategic partnership”.Analyze in the context of India’s geopolitical and economic priorities. - INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation",
+            "url": "https://www.insightsonindia.com/2025/02/12/the-india-efta-trade-and-economic-partnership-agreement-tepa-is-more-than-a-trade-deal-it-is-a-step-toward-a-long-term-strategic-partnership-analyze-in-the-context-of-india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8737439,
+            "metadata": {}
+        },
+        {
+            "id": "https://pib.gov.in/PressNoteDetails.aspx?id=155492&NoteId=155492&ModuleId=3",
+            "title": "Press Note Details: Press Information Bureau",
+            "url": "https://pib.gov.in/PressNoteDetails.aspx?id=155492&NoteId=155492&ModuleId=3",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8020137,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177724&reg=3&lang=2",
+            "title": "Press Release Page | Press Information Bureau",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177724&reg=3&lang=2",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8014549,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173138",
+            "title": "India–EFTA Trade and Economic Partnership Agreement",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173138",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8005209,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.prokerala.com/news/articles/a1763928.html",
+            "title": "India's economic pact with European FTA bloc seen as gamechanger",
+            "url": "https://www.prokerala.com/news/articles/a1763928.html",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7906115,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pwc.ch/en/insights/custom-ised/tepa-efta-india.html",
+            "title": "TEPA Free Trade Agreement between India and EFTA",
+            "url": "https://www.pwc.ch/en/insights/custom-ised/tepa-efta-india.html",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7900289,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2101431",
+            "title": "Press Release Page | Press Information Bureau",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2101431",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.78512776,
+            "metadata": {}
+        },
+        {
+            "id": "https://pib.gov.in/PressReleasePage.aspx?PRID=2173138",
+            "title": "Press Release Page | Press Information Bureau",
+            "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2173138",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.77548623,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.74229145,
+            "metadata": {}
+        },
+        {
+            "id": "https://stratrich.com/insights/the-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "India-EFTA TEPA: Historic Trade & Investment Deal",
+            "url": "https://stratrich.com/insights/the-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.73846215,
+            "metadata": {}
+        },
+        {
+            "id": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "title": "India-EFTA Trade Pact: Boosting $100 Billion Investment and 1 Million Jobs",
+            "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7352811,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.orfonline.org/expert-speak/the-india-efta-trade-and-economic-partnership-agreement-a-timely-template",
+            "title": "The India-EFTA Trade and Economic Partnership Agreement: A timely template",
+            "url": "https://www.orfonline.org/expert-speak/the-india-efta-trade-and-economic-partnership-agreement-a-timely-template",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7334523,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-trade-and-economic-partnership-agreement",
+            "title": "India-EFTA Trade and Economic Partnership Agreement",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-trade-and-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7253574,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "title": "A Step into the Right Direction: The India-EFTA Trade Agreement",
+            "url": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7152057,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "title": "India – EFTA Economic Partnership Agreement",
+            "url": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7120925,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India - European Free Trade Association (EFTA)",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7060491,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "title": "EFTA-India Trade and Economic Partnership Agreement enters ...",
+            "url": "https://www.efta.int/media-resources/news/efta-india-trade-and-economic-partnership-agreement-enters-force-joint",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7055624,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013169",
+            "title": "Press Release:Press Information Bureau",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013169",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6844544,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.norway.no/en/india/norway-india/business/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "India-EFTA Trade and Economic Partnership Agreement (TEPA)",
+            "url": "https://www.norway.no/en/india/norway-india/business/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.67706895,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pmfias.com/india-efta-tepa",
+            "title": "India-EFTA Trade & Economic Partnership Agreement (TEPA)",
+            "url": "https://www.pmfias.com/india-efta-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6633424,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.eoiriga.gov.in/docs/1760514927_Press+Release+15+Oct_11zon.pdf",
+            "title": "TEPA is model agreement and reaffirms India's readiness to ...",
+            "url": "https://www.eoiriga.gov.in/docs/1760514927_Press+Release+15+Oct_11zon.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6543875,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.economicdiplomacy.in/post/india-efta-tepa-free-trade-agreement-2025",
+            "title": "India–EFTA TEPA Comes Into Force | Historic India Free Trade ...",
+            "url": "https://www.economicdiplomacy.in/post/india-efta-tepa-free-trade-agreement-2025",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.64773196,
+            "metadata": {}
+        },
+        {
+            "id": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "title": "EFTA - India Trade and Economic Partnership Agreement (TEPA) ...",
+            "url": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.63452125,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/media-resources/news/efta-and-india-sign-trade-and-economic-partnership-agreement",
+            "title": "EFTA and India sign Trade and Economic Partnership Agreement | European Free Trade Association",
+            "url": "https://www.efta.int/media-resources/news/efta-and-india-sign-trade-and-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5611433,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pwc.in/assets/pdfs/India-efta-tepa-v1.pdf",
+            "title": "India-EFTA TEPA - PwC",
+            "url": "https://www.pwc.in/assets/pdfs/India-efta-tepa-v1.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.53692055,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.edelmanglobaladvisory.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "Public & Government Affairs | Edelman",
+            "url": "https://www.edelmanglobaladvisory.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.04897146,
+            "metadata": {}
+        }
+    ]
+}

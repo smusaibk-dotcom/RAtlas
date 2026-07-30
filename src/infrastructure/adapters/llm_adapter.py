@@ -25,6 +25,7 @@ class LLMAdapter(LLMPort):
         self._task_to_model = {
             "query_understanding": os.getenv("QUERY_UNDERSTANDING_MODEL"),
             "search_query_generation": os.getenv("SEARCH_QUERY_GENERATION_MODEL"),
+            "candidate_discovery": os.getenv("CANDIDATE_DISCOVERY_MODEL"),
             "graph_reasoning": os.getenv("GRAPH_REASONING_MODEL"),
             "chat": os.getenv("CHAT_MODEL"),
             "document_analysis": os.getenv("DOCUMENT_ANALYSIS_MODEL"),

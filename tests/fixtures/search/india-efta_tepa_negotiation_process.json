@@ -1,0 +1,103 @@
+{
+    "search_query": {
+        "query": "India-EFTA TEPA negotiation process",
+        "reason": "To learn about the steps involved in negotiating the agreement.",
+        "priority": 3,
+        "max_results": 15
+    },
+    "requested_results": 15,
+    "retrieved_results": 10,
+    "response_time": 0.64,
+    "resources": [
+        {
+            "id": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement",
+            "url": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.8055255,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India | European Free Trade Association",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7476348,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "title": "India – EFTA Economic Partnership Agreement",
+            "url": "https://www.ey.com/en_ch/technical/tax-alerts/india-efta-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6778372,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "title": "A Step into the Right Direction: The India-EFTA Trade ...",
+            "url": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6437107,
+            "metadata": {}
+        },
+        {
+            "id": "https://legalblogs.wolterskluwer.com/arbitration-blog/institutional-innovation-in-investment-treaties-the-india-efta-tepa-model-and-alternative-frameworks-for-dispute-prevention",
+            "title": "Institutional Innovation in Investment Treaties: The India-EFTA TEPA Model and Alternative Frameworks for Dispute Prevention | Kluwer Arbitration Blog",
+            "url": "https://legalblogs.wolterskluwer.com/arbitration-blog/institutional-innovation-in-investment-treaties-the-india-efta-tepa-model-and-alternative-frameworks-for-dispute-prevention",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.63777614,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.norway.no/en/india/norway-india/business/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "India-EFTA Trade and Economic Partnership Agreement ...",
+            "url": "https://www.norway.no/en/india/norway-india/business/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5957048,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.youtube.com/watch?v=NXiMJo_91wQ",
+            "title": "India signs historic TEPA with EFTA | $100bn FDI & 1mn ...",
+            "url": "https://www.youtube.com/watch?v=NXiMJo_91wQ",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.562874,
+            "metadata": {}
+        },
+        {
+            "id": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/bit/5123/efta---india-tepa-2024-",
+            "title": "EFTA - India TEPA (2024) - Investment Policy Hub - UNCTAD",
+            "url": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/bit/5123/efta---india-tepa-2024-",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.44767818,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.linkedin.com/pulse/indiaefta-tepa-defining-partnership-indias-economic-future-jyoti-vij-rdjtc",
+            "title": "India–EFTA TEPA: A Defining Partnership for India's ...",
+            "url": "https://www.linkedin.com/pulse/indiaefta-tepa-defining-partnership-indias-economic-future-jyoti-vij-rdjtc",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.4325193,
+            "metadata": {}
+        },
+        {
+            "id": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "title": "EFTA - India Trade and Economic Partnership Agreement ...",
+            "url": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.4179133,
+            "metadata": {}
+        }
+    ]
+}

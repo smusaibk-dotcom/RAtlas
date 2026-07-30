@@ -1,0 +1,85 @@
+{
+    "search_query": {
+        "query": "India EFTA TEPA AGREEMENT historical context",
+        "reason": "To understand the historical background of the agreement.",
+        "priority": 1,
+        "max_results": 10
+    },
+    "requested_results": 10,
+    "retrieved_results": 8,
+    "response_time": 1.1,
+    "resources": [
+        {
+            "id": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "title": "Pib India-EFTA Trade Pact: Boosting $100 Billion Investment and 1 Million Jobs",
+            "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.82082915,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.80625874,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.edelman.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "A Primer on the India-EFTA Trade and Economic Partnership Agreement (TEPA) | Edelman",
+            "url": "https://www.edelman.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7813477,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.norway.no/en/india/norway-india/business/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "India-EFTA Trade and Economic Partnership Agreement (TEPA) - Norway in India",
+            "url": "https://www.norway.no/en/india/norway-india/business/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7746691,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "title": "A Step into the Right Direction: The India-EFTA Trade Agreement",
+            "url": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.77096564,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.youtube.com/watch?v=NXiMJo_91wQ",
+            "title": "India signs historic TEPA with EFTA | $100bn FDI & 1mn Jobs Boost",
+            "url": "https://www.youtube.com/watch?v=NXiMJo_91wQ",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.7515939,
+            "metadata": {}
+        },
+        {
+            "id": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "title": "EFTA - India Trade and Economic Partnership Agreement (TEPA) (2024) - Electronic Database of Investment Treaties (EDIT)",
+            "url": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.67140645,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India | European Free Trade Association",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.6607204,
+            "metadata": {}
+        }
+    ]
+}

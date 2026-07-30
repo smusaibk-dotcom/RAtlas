@@ -1,0 +1,193 @@
+{
+    "search_query": {
+        "query": "India EFTA PETA academic papers",
+        "reason": "Academic papers on India-EFTA PETA can provide in-depth research.",
+        "priority": 5,
+        "max_results": 50
+    },
+    "requested_results": 50,
+    "retrieved_results": 20,
+    "response_time": 1.83,
+    "resources": [
+        {
+            "id": "https://www.petaindia.com/blog/peta-science-consortium-international-celebrates-10-years-of-saving-animals",
+            "title": "PETA Science Consortium International Celebrates 10 Years of Saving Animals - Blog - PETA India",
+            "url": "https://www.petaindia.com/blog/peta-science-consortium-international-celebrates-10-years-of-saving-animals",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.54985875,
+            "metadata": {}
+        },
+        {
+            "id": "https://testbook.com/editorials/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "India-EFTA Trade and Economic Partnership Agreement (TEPA) - UPSC Editorials",
+            "url": "https://testbook.com/editorials/india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.5021246,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pmfias.com/india-efta-tepa",
+            "title": "India-EFTA Trade & Economic Partnership Agreement (TEPA)",
+            "url": "https://www.pmfias.com/india-efta-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.37999994,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-efta-deal-a-new-chapter-in-trade-agreements",
+            "title": "India-EFTA Deal: A New Chapter in Trade Agreements",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-editorials/india-efta-deal-a-new-chapter-in-trade-agreements",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.34900057,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.orfonline.org/expert-speak/the-india-efta-trade-and-economic-partnership-agreement-a-timely-template",
+            "title": "The India-EFTA Trade and Economic Partnership Agreement: A timely template",
+            "url": "https://www.orfonline.org/expert-speak/the-india-efta-trade-and-economic-partnership-agreement-a-timely-template",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.34813574,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-free-trade-agreement",
+            "title": "India-EFTA Free Trade Agreement",
+            "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-efta-free-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3478034,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.insightsonindia.com/2023/05/03/tepa-between-india-and-efta-states",
+            "title": "TEPA between India and EFTA states - INSIGHTS IAS - Simplifying UPSC IAS Exam Preparation",
+            "url": "https://www.insightsonindia.com/2023/05/03/tepa-between-india-and-efta-states",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.32165226,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "title": "A Step into the Right Direction: The India-EFTA Trade Agreement",
+            "url": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.3178607,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/India–EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.29591665,
+            "metadata": {}
+        },
+        {
+            "id": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "title": "EFTA - India Trade and Economic Partnership Agreement (TEPA) (2024) - Electronic Database of Investment Treaties (EDIT)",
+            "url": "https://edit.wti.org/document/show/051ea6b4-806d-4f8a-8645-1d6b99a163a6",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.2911476,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.hinrichfoundation.com/research/article/ftas/india-deal-with-the-european-free-trade-association-efta",
+            "title": "India’s latest low-ambition FTA | Article | Hinrich Foundation",
+            "url": "https://www.hinrichfoundation.com/research/article/ftas/india-deal-with-the-european-free-trade-association-efta",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.2892768,
+            "metadata": {}
+        },
+        {
+            "id": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/treaties-with-investment-provisions/5123/efta---india-tepa-2024-",
+            "title": "EFTA - India TEPA (2024) | International Investment Agreements Navigator | UNCTAD Investment Policy Hub",
+            "url": "https://investmentpolicy.unctad.org/international-investment-agreements/treaties/treaties-with-investment-provisions/5123/efta---india-tepa-2024-",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.2843628,
+            "metadata": {}
+        },
+        {
+            "id": "https://medium.com/@gsaidheeraj/the-india-efta-trade-agreement-sectors-that-see-exponential-growth-in-next-15-years-62aa05cb33ee",
+            "title": "The India-EFTA Trade Agreement: Sectors that see Exponential Growth in next 15 years. | by Sai Dheeraj Gummadi | Medium",
+            "url": "https://medium.com/@gsaidheeraj/the-india-efta-trade-agreement-sectors-that-see-exponential-growth-in-next-15-years-62aa05cb33ee",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.27217734,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013169",
+            "title": "Press Release:Press Information Bureau",
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013169",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.2611005,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173138",
+            "title": "Press Release Page | Press Information Bureau",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173138",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.25370887,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_India",
+            "title": "Free trade agreements of India - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_India",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.23147562,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.sanskritiias.com/current-affairs/india-efta-free-trade-agreement-to-come-into-effect-from-1st-october",
+            "title": "India-EFTA Free Trade Agreement to Come into Effect from 1st October - Sanskriti IAS",
+            "url": "https://www.sanskritiias.com/current-affairs/india-efta-free-trade-agreement-to-come-into-effect-from-1st-october",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.18025126,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India | European Free Trade Association",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.17075707,
+            "metadata": {}
+        },
+        {
+            "id": "https://ciiblog.in/how-will-the-india-efta-trade-and-economic-partnership-agreement-play-out",
+            "title": "How Will The India–EFTA Trade and Economic Partnership Agreement Play Out - CII Blog",
+            "url": "https://ciiblog.in/how-will-the-india-efta-trade-and-economic-partnership-agreement-play-out",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.15254943,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.edelmanglobaladvisory.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "Public & Government Affairs | Edelman",
+            "url": "https://www.edelmanglobaladvisory.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.008759603,
+            "metadata": {}
+        }
+    ]
+}

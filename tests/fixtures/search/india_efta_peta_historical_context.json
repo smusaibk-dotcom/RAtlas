@@ -1,0 +1,85 @@
+{
+    "search_query": {
+        "query": "India EFTA PETA historical context",
+        "reason": "Understanding the historical context of India-EFTA PETA is crucial for research.",
+        "priority": 1,
+        "max_results": 10
+    },
+    "requested_results": 10,
+    "retrieved_results": 8,
+    "response_time": 0.94,
+    "resources": [
+        {
+            "id": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "title": "Pib India-EFTA Trade Pact: Boosting $100 Billion Investment and 1 Million Jobs",
+            "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251011663301.pdf",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.54187006,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.edelman.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "title": "A Primer on the India-EFTA Trade and Economic Partnership Agreement (TEPA) | Edelman",
+            "url": "https://www.edelman.com/insights/primer-india-efta-trade-and-economic-partnership-agreement-tepa",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.46191534,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.investindia.gov.in/blogs/impact-india-efta-trade-and-economic-partnership-agreement",
+            "title": "The Impact of India-EFTA Trade and Economic Partnership Agreement",
+            "url": "https://www.investindia.gov.in/blogs/impact-india-efta-trade-and-economic-partnership-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.45842203,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "title": "A Step into the Right Direction: The India-EFTA Trade Agreement",
+            "url": "https://www.cepweb.org/a-step-into-the-right-direction-the-india-efta-trade-agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.4513029,
+            "metadata": {}
+        },
+        {
+            "id": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "title": "India–EFTA Trade and Economic Partnership Agreement - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/India%E2%80%93EFTA_Trade_and_Economic_Partnership_Agreement",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.43438992,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "title": "India | European Free Trade Association",
+            "url": "https://www.efta.int/trade-relations/free-trade-network/india",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.38525957,
+            "metadata": {}
+        },
+        {
+            "id": "https://www.youtube.com/watch?v=foS6tnDQbe0",
+            "title": "India-EFTA Trade Pact Completes 2 Years: What It Means For Trade ...",
+            "url": "https://www.youtube.com/watch?v=foS6tnDQbe0",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.23372427,
+            "metadata": {}
+        },
+        {
+            "id": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5268702",
+            "title": "The Investment Chapter in the India-EFTA Free Trade Agreement: Is it a ...",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5268702",
+            "resource_type": null,
+            "provider": "tavily",
+            "relevance_score": 0.15429981,
+            "metadata": {}
+        }
+    ]
+}

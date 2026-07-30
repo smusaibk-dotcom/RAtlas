@@ -1,0 +1,34 @@
+{
+    "queries": [
+        {
+            "query": "India-EFTA TEPA history",
+            "reason": "To understand the historical context of the agreement.",
+            "priority": 1,
+            "max_results": 10
+        },
+        {
+            "query": "India-EFTA Trade and Economic Partnership Agreement benefits",
+            "reason": "To identify the advantages of the agreement for India.",
+            "priority": 2,
+            "max_results": 20
+        },
+        {
+            "query": "India-EFTA TEPA negotiation process",
+            "reason": "To learn about the steps involved in negotiating the agreement.",
+            "priority": 3,
+            "max_results": 15
+        },
+        {
+            "query": "India-EFTA Trade and Economic Partnership Agreement impact on Indian economy",
+            "reason": "To assess the potential effects of the agreement on India's economy.",
+            "priority": 4,
+            "max_results": 25
+        },
+        {
+            "query": "India-EFTA TEPA comparison with other trade agreements",
+            "reason": "To compare the India-EFTA TEPA with other trade agreements.",
+            "priority": 5,
+            "max_results": 30
+        }
+    ]
+}

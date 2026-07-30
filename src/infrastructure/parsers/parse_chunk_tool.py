@@ -16,6 +16,9 @@ from infrastructure.browser.browser_tool import BrowserAgent
 from infrastructure.parsers.chunk_wrapper import ChunkWrapper
 from infrastructure.parsers.resource_router import ResourceRouter
 from infrastructure.parsers.youtube_chunker import YoutubeChunker
+from infrastructure.parsers.page_validator import PageValidator
+
+
 
 logging.getLogger("docling").setLevel(logging.ERROR)
 
@@ -137,6 +140,8 @@ class ParseChunkTool:
         resource: ResourceReference,
     ):
         html = await self._browser.download_html(resource.url)
+
+        PageValidator.validate(html)
 
         with tempfile.NamedTemporaryFile(
             suffix=".html",
