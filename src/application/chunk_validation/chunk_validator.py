@@ -17,7 +17,6 @@ class ChunkValidator:
         self,
         text: str,
     ) -> ChunkValidationResult:
-
         text = text.strip()
 
         if self._is_empty(text):

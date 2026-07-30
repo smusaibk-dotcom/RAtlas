@@ -16,6 +16,7 @@ from infrastructure.parsers.page_validator import InvalidPageException
 
 candidate_discovery_agent = CandidateDiscoveryAgent()
 
+
 async def parse_all(resources):
     semaphore = asyncio.Semaphore(4)
 
@@ -163,9 +164,7 @@ def search(
 
     candidate_list = []
 
-    fixture_path = Path(
-        f"tests/fixtures/chunks/{state.conversation_id}.json"
-    )
+    fixture_path = Path(f"tests/fixtures/chunks/{state.conversation_id}.json")
 
     fixture_path.parent.mkdir(
         parents=True,
@@ -184,9 +183,9 @@ def search(
             ensure_ascii=False,
         )
 
-    #for chunk in chunks:
-        #response = candidate_discovery_agent.run(chunk)
-        #candidate_list.extend(response.candidates)
+    # for chunk in chunks:
+    # response = candidate_discovery_agent.run(chunk)
+    # candidate_list.extend(response.candidates)
 
     return {
         "conversation_id": state.conversation_id,
@@ -199,5 +198,5 @@ def search(
         "failed_resources": failed_resources,
         "chunk_stats": chunk_stats,
         "chunks_file": str(fixture_path),
-        #"candidates": candidate_list
+        # "candidates": candidate_list
     }

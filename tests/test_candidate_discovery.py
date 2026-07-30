@@ -11,7 +11,6 @@ OUTPUT_FILE = Path("tests/fixtures/candidate_discovery/candidates.json")
 
 
 def main():
-
     agent = CandidateDiscoveryAgent()
 
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
@@ -24,7 +23,6 @@ def main():
     print(f"\nFound {total} chunks.\n")
 
     for index, chunk_dict in enumerate(chunk_dicts, start=1):
-
         chunk = Chunk(**chunk_dict)
 
         print("=" * 100)
@@ -35,7 +33,6 @@ def main():
         print("=" * 100)
 
         try:
-
             response = agent.run(chunk)
 
             print(f"\nCandidates Found : {len(response.candidates)}\n")
@@ -47,10 +44,7 @@ def main():
                 {
                     "chunk_id": chunk.chunk_id,
                     "heading": chunk.content["heading"],
-                    "candidates": [
-                        candidate.model_dump()
-                        for candidate in response.candidates
-                    ],
+                    "candidates": [candidate.model_dump() for candidate in response.candidates],
                 }
             )
 

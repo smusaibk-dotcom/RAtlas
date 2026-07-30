@@ -43,7 +43,6 @@ def extract_candidates(text: str):
     # ---------- Nouns / Proper Nouns ----------
     for sentence in doc.sentences:
         for word in sentence.words:
-
             if word.upos not in {"NOUN", "PROPN"}:
                 continue
 
@@ -71,7 +70,6 @@ def extract_candidates(text: str):
 
 
 def main():
-
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         chunk_dicts = json.load(f)
 
@@ -82,7 +80,6 @@ def main():
     print(f"\nProcessing {total} chunks...\n")
 
     for index, chunk_dict in enumerate(chunk_dicts, start=1):
-
         chunk = Chunk(**chunk_dict)
 
         text = chunk.content.get("text", "")

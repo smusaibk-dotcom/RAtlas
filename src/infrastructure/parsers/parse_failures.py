@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class ParseFailureType(str, Enum):
     HTTP_403 = "http_403"
     HTTP_404 = "http_404"

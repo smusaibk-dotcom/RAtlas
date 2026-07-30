@@ -10,7 +10,6 @@ from application.dto.llm_message import LLMMessage, MessageRole
 
 
 class CandidateDiscoveryAgent:
-
     def __init__(self):
         self._llm = LLMAdapter()
 

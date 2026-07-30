@@ -1,10 +1,11 @@
 from infrastructure.parsers.page_validator import InvalidPageException
 from infrastructure.parsers.parse_failures import ParseFailureType
 
+
 class ParseErrorClassifier:
     @staticmethod
     def classify(exc: Exception) -> ParseFailureType:
-        if isinstance(exc,InvalidPageException):
+        if isinstance(exc, InvalidPageException):
             return exc.reason
 
         text = str(exc).lower()

@@ -1,5 +1,6 @@
 from infrastructure.parsers.parse_failures import ParseFailureType
 
+
 class InvalidPageException(Exception):
     def __init__(self, reason: ParseFailureType):
         self.reason = reason

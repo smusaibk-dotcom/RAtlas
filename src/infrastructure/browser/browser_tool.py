@@ -410,9 +410,7 @@ class BrowserAgent:
             )
 
         if not result.success:
-            raise RuntimeError(
-                f"Failed to fetch HTML: {url}"
-            )
+            raise RuntimeError(f"Failed to fetch HTML: {url}")
 
         clean_html = trafilatura.extract(
             result.cleaned_html,
@@ -421,11 +419,10 @@ class BrowserAgent:
         )
 
         if clean_html is None:
-            raise RuntimeError(
-                f"Trafilatura failed to extract main content: {url}"
-            )
+            raise RuntimeError(f"Trafilatura failed to extract main content: {url}")
 
         return clean_html
+
     async def fetch_github_documents(
         self,
         owner: str,

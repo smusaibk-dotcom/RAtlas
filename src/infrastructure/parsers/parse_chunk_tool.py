@@ -19,7 +19,6 @@ from infrastructure.parsers.youtube_chunker import YoutubeChunker
 from infrastructure.parsers.page_validator import PageValidator
 
 
-
 logging.getLogger("docling").setLevel(logging.ERROR)
 
 

@@ -5,6 +5,7 @@ from infrastructure.parsers.document_chunker import DocumentChunker
 from infrastructure.parsers.text_cleaner import TextCleaner
 from application.chunk_validation.chunk_validator import ChunkValidator
 
+
 class ChunkWrapper:
     def __init__(self):
         self._chunker = DocumentChunker()
@@ -118,7 +119,7 @@ class ChunkWrapper:
             text = self._cleaner.clean(
                 text,
             )
-            
+
             result = self._validator.validate(text)
 
             if not result.valid:

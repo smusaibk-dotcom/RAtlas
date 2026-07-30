@@ -72,7 +72,7 @@ def dashboard():
         # Store parsed output
         st.session_state["parsed_chunks"] = result["parsed_chunks"]
         st.session_state["failed_resources"] = result["failed_resources"]
-        #st.session_state["candidates"] = result["candidates"]
+        # st.session_state["candidates"] = result["candidates"]
 
         # Always collect debug information after a successful search
         debug = SearchCollector.collect(result["search_results"])
@@ -194,14 +194,12 @@ def dashboard():
         if result["failed_resources"]:
             for failure in result["failed_resources"]:
                 with st.expander(f"❌ {failure['resource'].title}"):
-
                     st.write(f"**Reason:** {failure['reason'].value}")
                     st.write(f"**Message:** {failure['message']}")
                     st.code(failure["resource"].url)
 
         else:
             st.success("No failed resources.")
-
 
         st.subheader("Resources")
 
@@ -220,7 +218,7 @@ def dashboard():
                     st.write(f"**Score:** {score}")
 
                     st.code(resource.url)
-                
+
                     chunks_file = Path(result["chunks_file"])
 
                     if st.button(
@@ -231,19 +229,17 @@ def dashboard():
                             chunks = json.load(f)
 
                         resource_chunks = [
-                            chunk
-                            for chunk in chunks
-                            if chunk["resource_id"] == str(resource.id)
+                            chunk for chunk in chunks if chunk["resource_id"] == str(resource.id)
                         ]
 
                         st.write(f"Chunks: {len(resource_chunks)}")
 
                         for j, chunk in enumerate(resource_chunks):
-                            with st.expander(f"Chunk {j+1}"):
+                            with st.expander(f"Chunk {j + 1}"):
                                 st.text(chunk["content"].get("text", ""))
 
                 with c2:
-                    resource_key = str(resource.id)   
+                    resource_key = str(resource.id)
 
                     chunk_count = result["chunk_stats"].get(resource_key, 0)
 
@@ -254,9 +250,9 @@ def dashboard():
 
         st.success("Search completed.")
 
-    #st.divider()
+    # st.divider()
 
-    #st.subheader("Candidate Discovery")
+    # st.subheader("Candidate Discovery")
 
-    #for candidate in st.session_state["candidates"]:
-        #st.write(f"• {candidate.text}")
+    # for candidate in st.session_state["candidates"]:
+    # st.write(f"• {candidate.text}")
